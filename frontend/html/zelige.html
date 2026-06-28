@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="fr-MA" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Découvrez l'art traditionnel des poteries et verreries marocaines, leur histoire et leurs techniques de fabrication." />
+  <title>Poteries & Verreries Marocaines | ArtMaroc.ce</title>
+
+  <!-- Polices -->
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    /* ===== VARIABLES & RESET ===== */
+    :root {
+      --primary: #f8c471;   /* Couleur dorée principale */
+      --secondary: #d35400; /* Couleur orangée */
+      --tertiary: #5d4037; /* Couleur terre pour poterie */
+      --dark: #0a0500;      /* Fond sombre */
+      --light: #ffeaa7;     /* Texte clair */
+      --text: #fff;         /* Texte blanc */
+      --header-h: 70px;     /* Hauteur header */
+      --section-padding: 4rem 0;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* ===== STRUCTURE DE BASE ===== */
+    body, html {
+      height: 100%;
+      font-family: 'Amiri', serif;
+      color: var(--text);
+      background: var(--dark);
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+      line-height: 1.6;
+    }
+
+    /* ===== HEADER ===== */
+    .main-header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: var(--header-h);
+      background: rgba(17, 17, 17, 0.95);
+      backdrop-filter: blur(8px);
+      box-shadow: 0 2px 15px rgba(0, 0, 0, 0.8);
+      z-index: 100;
+      transition: all 0.3s ease;
+    }
+
+    .main-header.scrolled {
+      height: calc(var(--header-h) - 15px);
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 100%;
+    }
+
+    .logo img {
+      transition: transform 0.3s ease;
+    }
+
+    .logo:hover img {
+      transform: scale(1.05);
+    }
+
+    .navbar ul {
+      list-style: none;
+      display: flex;
+      gap: 2.5rem;
+    }
+
+    .navbar ul li a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.2rem;
+      padding: 0.5rem;
+      position: relative;
+      transition: all 0.3s ease;
+    }
+
+    .navbar ul li a::after {
+      content: '';
+      position: absolute;
+      bottom: -3px;
+      right: 0;
+      width: 0;
+      height: 2px;
+      background: var(--secondary);
+      transition: width 0.3s ease;
+    }
+
+    .navbar ul li a:hover {
+      color: var(--secondary);
+      text-shadow: 0 0 8px var(--secondary);
+    }
+
+    .navbar ul li a:hover::after {
+      width: 100%;
+      left: 0;
+    }
+
+    /* ===== MAIN CONTENT ===== */
+    .content-container {
+      padding-top: calc(var(--header-h) + 2rem);
+      position: relative;
+      z-index: 1;
+    }
+
+    .article-content {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 2.5rem;
+      background: rgba(0, 0, 0, 0.8);
+      backdrop-filter: blur(5px);
+      border-radius: 15px;
+      border: 1px solid rgba(248, 196, 113, 0.2);
+      box-shadow: 0 0 30px rgba(248, 196, 113, 0.3);
+    }
+
+    .article-header h1 {
+      text-align: center;
+      margin-bottom: 1.5rem;
+      font-size: 2.8rem;
+      color: var(--primary);
+      text-shadow: 0 0 15px var(--secondary);
+      position: relative;
+    }
+
+    .article-header h1::after {
+      content: '';
+      position: absolute;
+      bottom: -15px;
+      left: 25%;
+      width: 50%;
+      height: 3px;
+      background: linear-gradient(to right, transparent, var(--secondary), transparent);
+    }
+
+    .intro-text {
+      font-size: 1.2rem;
+      text-align: center;
+      margin-bottom: 2rem;
+      color: var(--light);
+    }
+
+    /* ===== SECTIONS STYLING ===== */
+    .section-overview {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      margin-bottom: 3rem;
+    }
+
+    .featured-image {
+      width: 100%;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    }
+
+    .featured-image img {
+      width: 100%;
+      height: auto;
+      display: block;
+      transition: transform 0.5s ease;
+    }
+
+    .featured-image:hover img {
+      transform: scale(1.03);
+    }
+
+    .featured-image figcaption {
+      text-align: center;
+      padding: 0.5rem;
+      font-style: italic;
+      color: var(--primary);
+      background: rgba(10, 5, 0, 0.7);
+    }
+
+    .overview-text {
+      font-size: 1.1rem;
+      line-height: 1.8;
+    }
+
+    /* Style spécifique pour les sections poterie/verrerie */
+    .craft-section {
+      margin: 3rem 0;
+      padding: 2rem;
+      background: rgba(93, 64, 55, 0.1);
+      border-radius: 10px;
+      border-left: 4px solid var(--tertiary);
+    }
+
+    .craft-section h2 {
+      color: var(--primary);
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      position: relative;
+      display: inline-block;
+    }
+
+    .craft-section h2::after {
+      content: '';
+      position: absolute;
+      bottom: -5px;
+      left: 0;
+      width: 50%;
+      height: 2px;
+      background: var(--secondary);
+    }
+
+    .techniques-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .technique-card {
+      background: rgba(10, 5, 0, 0.5);
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease;
+    }
+
+    .technique-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .technique-image {
+      width: 100%;
+      height: 200px;
+      overflow: hidden;
+    }
+
+    .technique-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+    }
+
+    .technique-card:hover .technique-image img {
+      transform: scale(1.1);
+    }
+
+    .technique-content {
+      padding: 1.5rem;
+    }
+
+    .technique-content h3 {
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+    }
+
+    /* ===== GALERIE ===== */
+    .gallery-section {
+      margin: 3rem 0;
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .gallery-item {
+      position: relative;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+      aspect-ratio: 1/1;
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease, filter 0.3s ease;
+    }
+
+    .gallery-item:hover img {
+      transform: scale(1.1);
+      filter: brightness(1.1);
+    }
+
+    .gallery-caption {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding: 1rem;
+      background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+      color: white;
+      transform: translateY(100%);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery-item:hover .gallery-caption {
+      transform: translateY(0);
+    }
+
+    /* ===== CONCLUSION ===== */
+    .conclusion {
+      margin: 3rem 0;
+      padding: 2rem;
+      background: rgba(248, 196, 113, 0.1);
+      border-left: 4px solid var(--primary);
+      border-radius: 0 10px 10px 0;
+    }
+
+    .conclusion h2 {
+      color: var(--primary);
+      margin-bottom: 1rem;
+    }
+
+    /* ===== BUTTONS ===== */
+    .btn-return {
+      display: inline-block;
+      padding: 0.8rem 2rem;
+      margin-top: 2rem;
+      background: transparent;
+      border: 2px solid var(--primary);
+      border-radius: 50px;
+      color: var(--primary);
+      font-weight: bold;
+      text-decoration: none;
+      transition: all 0.4s ease;
+      position: relative;
+      overflow: hidden;
+      z-index: 1;
+    }
+
+    .btn-return::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 0;
+      height: 100%;
+      background: var(--primary);
+      transition: width 0.4s ease;
+      z-index: -1;
+    }
+
+    .btn-return:hover {
+      color: #333;
+      transform: translateY(-3px);
+      box-shadow: 0 5px 20px rgba(211, 84, 0, 0.5);
+    }
+
+    .btn-return:hover::before {
+      width: 100%;
+      left: 0;
+    }
+
+    /* ===== FOOTER ===== */
+    .main-footer {
+      background: rgba(17, 17, 17, 0.95);
+      padding: 2rem 0;
+      text-align: center;
+      border-top: 1px solid rgba(248, 196, 113, 0.2);
+    }
+
+    .main-footer p {
+      margin-bottom: 1rem;
+      color: var(--primary);
+    }
+
+    .main-footer nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+    }
+
+    .main-footer nav ul li a {
+      color: var(--light);
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .main-footer nav ul li a:hover {
+      color: var(--secondary);
+    }
+
+    /* ===== ANIMATIONS ===== */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 768px) {
+      .container {
+        width: 95%;
+      }
+      
+      .navbar ul {
+        gap: 1rem;
+      }
+      
+      .article-content {
+        padding: 1.5rem;
+        margin: 1rem auto;
+      }
+      
+      .article-header h1 {
+        font-size: 2rem;
+      }
+      
+      .techniques-grid {
+        grid-template-columns: 1fr;
+      }
+      
+      .gallery-grid {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      }
+      
+      .conclusion {
+        padding: 1.5rem;
+      }
+      
+      .main-footer nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .navbar ul {
+        gap: 0.5rem;
+      }
+      
+      .navbar ul li a {
+        font-size: 1rem;
+      }
+      
+      .article-header h1 {
+        font-size: 1.8rem;
+      }
+      
+      .btn-return {
+        padding: 0.6rem 1.5rem;
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="main-header">
+    <div class="container">
+      <div class="logo">
+        <a href="index.html" aria-label="Retour à l'accueil">
+          <img src="images/logo.png" alt="Logo ArtMaroc.ce" width="120" />
+        </a>
+      </div>
+      <nav class="navbar" aria-label="Navigation principale">
+        <ul>
+          <li><a href="index.html" class="nav-link">Accueil</a></li>
+          <li><a href="histoire.html" class="nav-link">Historique</a></li>
+          <li><a href="categories.html" class="nav-link">Catégories</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contenu principal -->
+  <main class="content-container">
+    <article class="article-content">
+      <header class="article-header">
+        <h1>L'Art des Poteries et Verreries Marocaines</h1>
+        <p class="intro-text">
+          Découvrez le savoir-faire millénaire des artisans marocains dans la création de poteries et verreries, 
+          un héritage culturel qui allie beauté et fonctionnalité.
+        </p>
+      </header>
+
+      <section class="section-overview">
+        <figure class="featured-image">
+          <img src="images/poterie-verrerie.jpeg" alt="Artisan marocain travaillant la poterie" width="800" />
+          <figcaption>Atelier traditionnel de poterie à Fès, cœur de l'artisanat marocain</figcaption>
+        </figure>
+
+        <div class="overview-text">
+          <p>
+            Le Maroc est réputé pour son artisanat d'exception, notamment ses poteries et verreries qui reflètent 
+            la richesse culturelle du pays. De la terre cuite de Safi aux verres émaillés de Fès, chaque pièce 
+            raconte une histoire et porte en elle l'âme de son créateur.
+          </p>
+        </div>
+      </section>
+
+      <!-- Section Poterie -->
+      <section class="craft-section">
+        <h2>Les Poteries Marocaines</h2>
+        <p>
+          La poterie marocaine est un art ancestral qui se transmet de génération en génération. 
+          Les techniques varient selon les régions, mais toutes partagent ce même souci du détail 
+          et cette recherche de l'harmonie entre forme et décoration.
+        </p>
+        
+        <div class="techniques-grid">
+          <div class="technique-card">
+            <div class="technique-image">
+              <img src="images/ch.jpeg" alt="Poterie bleue de Chefchaouen" />
+            </div>
+            <div class="technique-content">
+              <h3>Poterie Bleue de Chefchaouen</h3>
+              <p>Caractérisée par ses motifs géométriques et sa couleur bleu cobalt, inspirée par la ville elle-même.</p>
+            </div>
+          </div>
+          
+          <div class="technique-card">
+            <div class="technique-image">
+              <img src="images/téléchargement (3).jpeg" alt="Poterie vernissée de Safi" />
+            </div>
+            <div class="technique-content">
+              <h3>Poterie Vernissée de Safi</h3>
+              <p>Reconnue pour son vernis vert et jaune, utilisé traditionnellement pour la conservation des aliments.</p>
+            </div>
+          </div>
+          
+          <div class="technique-card">
+            <div class="technique-image">
+              <img src="images/téléchargement.jpeg" alt="Tajines artisanaux" />
+            </div>
+            <div class="technique-content">
+              <h3>Tajines Artisanaux</h3>
+              <p>Pièces culinaires emblématiques, aussi belles que fonctionnelles, souvent décorées à la main.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section Verrerie -->
+      <section class="craft-section">
+        <h2>Les Verreries Artisanales</h2>
+        <p>
+          L'art de la verrerie au Maroc est particulièrement développé à Fès, où les maîtres verriers 
+          perpétuent des techniques médiévales pour créer des pièces d'une beauté incomparable.
+        </p>
+        
+        <div class="techniques-grid">
+          <div class="technique-card">
+            <div class="technique-image">
+              <img src="images/il_fullxfull.5817808092_3ddu.webp" alt="Verre émaillé" />
+            </div>
+            <div class="technique-content">
+              <h3>Verre Émaillé</h3>
+              <p>Technique complexe où des pigments colorés sont fixés sur le verre par cuisson.</p>
+            </div>
+          </div>
+          
+          <div class="technique-card">
+            <div class="technique-image">
+              <img src="images/téléchargement (1).jpeg" alt="Lanternes en verre" />
+            </div>
+            <div class="technique-content">
+              <h3>Lanternes en Verre</h3>
+              <p>Pièces décoratives qui jouent avec la lumière, typiques de l'architecture marocaine.</p>
+            </div>
+          </div>
+          
+          <div class="technique-card">
+            <div class="technique-image">
+              <img src="images/vs.jpeg" alt="Verre soufflé" />
+            </div>
+            <div class="technique-content">
+              <h3>Verre Soufflé</h3>
+              <p>Technique traditionnelle où le verre est travaillé à la bouche pour créer des formes uniques.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Galerie -->
+      <section class="gallery-section">
+        <h2>Galerie d'Art</h2>
+        <p>Admirez la diversité et la beauté des créations marocaines à travers cette sélection de pièces exceptionnelles.</p>
+        
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="images/poterie1.jpeg" alt="Vase berbère" />
+            <div class="gallery-caption">Vase berbère - Région du Souss</div>
+          </div>
+          <div class="gallery-item">
+            <img src="images/fes.jpeg"Théière en verre" />
+            <div class="gallery-caption">Théière en verre émaillé - Fès</div>
+          </div>
+          <div class="gallery-item">
+            <img src="images/asfi.jpeg" alt="Plat décoratif" />
+            <div class="gallery-caption">Plat décoratif - Safi</div>
+          </div>
+          <div class="gallery-item">
+            <img src="images/mekness.jpeg" alt="Carafe traditionnelle" />
+            <div class="gallery-caption">Carafe traditionnelle - Meknès</div>
+          </div>
+          
+          <div class="gallery-item">
+            <img src="images/tg.jpeg" alt="Luminaire en verre" />
+            <div class="gallery-caption">Luminaire en verre soufflé - Tanger</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="conclusion">
+        <h2>Un Patrimoine à Préserver</h2>
+        <p>
+          Les poteries et verreries marocaines représentent bien plus que de simples objets artisanaux. 
+          Elles sont le témoignage vivant d'un savoir-faire ancestral, d'une culture riche et d'une 
+          identité forte. Aujourd'hui, ces arts traditionnels continuent d'inspirer et de fasciner, 
+          tout en s'adaptant aux exigences contemporaines.
+        </p>
+        <p>
+          En acquérant une pièce d'artisanat marocain, vous ne possédez pas seulement un bel objet, 
+          mais vous devenez également le gardien d'une partie de cette histoire millénaire.
+        </p>
+      </section>
+
+      <footer class="article-footer">
+        <a href="histoire.html" class="btn-return" aria-label="Retour aux catégories">← Retour</a>
+      </footer>
+    </article>
+  </main>
+
+  <!-- Footer -->
+  
+
+  <script>
+    // Effet de réduction du header au scroll
+    window.addEventListener('scroll', function() {
+      const header = document.querySelector('.main-header');
+      if (window.scrollY > 50) {
+        header.classList.add('scrolled');
+      } else {
+        header.classList.remove('scrolled');
+      }
+    });
+  </script>
+</body>
+</html>

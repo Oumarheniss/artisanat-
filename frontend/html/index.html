@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr-MA" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Découvrez le patrimoine de l'artisanat marocain à travers une expérience immersive. Zellige, céramique, tissage et plus encore." />
+  <title>ArtMaroc.ce - L'héritage de l'art marocain</title>
+  
+  <!-- Préchargements -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" as="style" />
+  <link rel="preload" href="video/accieul.webm" as="video" type="video/webm">
+  
+  <!-- Métadonnées sociales -->
+  <meta property="og:title" content="ArtMaroc.ce - L'héritage de l'art marocain" />
+  <meta property="og:image" content="https://artmaroc.ce/img/social.jpg" />
+  <meta property="og:description" content="Découvrez le patrimoine de l'artisanat marocain à travers une expérience immersive." />
+  
+  <!-- Polices -->
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="img/favicon.png" />
+</head>
+
+<body>
+  <!-- Préchargeur pour mobile et fallback vidéo -->
+  <div id="mobile-fallback" class="mobile-bg"></div>
+  <div class="video-fallback" hidden>
+    <img src="img/fallback.jpg" alt="Artisanat marocain" />
+  </div>
+
+  <!-- Vidéo en fond -->
+  <video autoplay muted loop playsinline id="background-video" aria-label="Vidéo de fond montrant des artisans marocains au travail">
+    <source src="video/accieul.webm" type="video/webm">
+    <source src="video/accieul.mp4" type="video/mp4">
+  </video>
+
+  <!-- Contenu principal -->
+  <div class="container">
+    <header>
+      <div class="logo">
+        <img src="images/logo.png" alt="Logo ArtMaroc.ce" width="120" />
+      </div>
+    </header>
+
+    <main role="main" aria-live="polite">
+      <p class="hero-text">
+        Entre tes mains un héritage éternel,<br />
+        qui raconte les histoires des ancêtres et l'écho des temps,<br />
+        là où les femmes des montagnes de l'Atlas tissent les fils de la vie,<br />
+        et les mains habiles gravent dans le zellige et les ornements une histoire de beauté...
+      </p>
+      
+      <button id="start-btn" class="cta-pulse" aria-describedby="btn-desc">
+        <span class="btn-text">Approfondis l'art des ancêtres</span>
+        <span class="btn-icon" aria-hidden="true">→</span>
+      </button>
+      <p id="btn-desc" hidden>Ouvre la galerie des arts traditionnels marocains</p>
+    </main>
+
+
+  <script src="java/script.js" defer></script>
+  <noscript>
+    <style>
+      #mobile-fallback { display: block !important; }
+      .video-fallback { display: block !important; }
+      #background-video { display: none !important; }
+    </style>
+  </noscript>
+</body>
+</html>

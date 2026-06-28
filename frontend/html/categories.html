@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ArtMaroc.ce - Catégories</title>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/categorie.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="histoire.html">Historique</a></li>
+        <li><a href="categories.html">Catégorie</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Vidéo en fond -->
+  <video autoplay muted loop playsinline id="background-video">
+    <source src="video/categorie.webm" type="video/webm" />
+    <source src="video/categorie.mp4" type="video/mp4" />
+    <img src="img/fallback.jpg" alt="خلفية تقليدية مغربية" />
+  </video>
+
+  <div class="overlay"></div>
+
+  <!-- Conteneur principal -->
+  <div class="container">
+    <h1> Choisissez la catégorie des métiers traditionnels</h1>
+    <div class="buttons-group">
+      <!-- Boutons dynamiques ici -->
+    </div>
+  </div>
+
+  <!-- Script pour charger les catégories -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const API_URL = 'http://127.0.0.1:5000/api/artisanat/categories';
+      const buttonsGroup = document.querySelector('.buttons-group');
+
+      fetch(API_URL)
+        .then(res => res.json())
+        .then(data => {
+          if (!data.categories || data.categories.length === 0) {
+            buttonsGroup.innerHTML = "<p>Aucune catégorie trouvée.</p>";
+            return;
+          }
+
+          data.categories.forEach(category => {
+            const btn = document.createElement('a');
+            btn.href = `${category}.html`; // Par exemple: bois.html
+            btn.classList.add('category-btn');
+            btn.textContent = `Les arts de ${category}`;
+            buttonsGroup.appendChild(btn);
+          });
+        })
+        .catch(err => {
+          console.error('Erreur de chargement des catégories:', err);
+          buttonsGroup.innerHTML = '<p style="color: red;">Impossible de charger les catégories.</p>';
+        });
+    });
+  </script>
+</body>
+</html>

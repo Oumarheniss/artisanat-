@@ -1,0 +1,340 @@
+﻿type,text,method
+p,Anou's Website is Changing! Is something not working as expected? Email us at hello@theanou.com,selenium
+p,EXPERIENCES,selenium
+p,OUR MISSION,selenium
+h1,Create an artisan owned & managed Moroccan craft economy.,selenium
+p,ABOUT THE ANOU COOPERATIVE,selenium
+p,"The Anou Cooperative is an award winning collective of over 600 artisans from cooperatives, associations, and workshops across Morocco. The Anou Cooperative is owned and managed by Morocco's artisan community and is open to all authentic artisans committed to quality and transparency.",selenium
+p,OUR THEORY OF CHANGE,selenium
+p,"Fair Trade has existed for decades but Moroccan artisans are fewer and poorer than ever. This is because real change in the artisan sector doesn't happen by paying artisans a little extra money. For craft in Morocco to flourish, artisans need wealth, real skills, and most importantly, real power.",selenium
+p,MIDDLEMAN MODEL,selenium
+p,"Products beautifully displayed in Marrakech or Instagram only net artisans less than 4% of what you pay. Oftentimes, this doesn't even cover the cost of the material of of the product.",selenium
+p,FAIR TRADE MODEL,selenium
+p,"Fair trade pays a little better, but not enough to create meaningful sector wide change. The 80% not only represents 80% in lost income, but the real skills in running businesses artisans are never an opportunity to learn.",selenium
+p,ARTISAN OWNED MODEL,selenium
+p,"Through Anou, artisans earn what fair-trade organizations traditionally make. Most important, the 20% is all recycled back into the artisan community through training or employment and creating collective power to change the future of craft.",selenium
+p,"Mustapha is both a metalsmith of Association Nahda and an Anou artisan leader specializing in operations. Right, Mustapha facilitates a meeting with Cooperative Tadighoust to help them improve their internal bylaws.",selenium
+a,Association Nahda,selenium
+a,Cooperative Tadighoust,selenium
+p,MEET THE ARTISAN TEAM,selenium
+p,"The Anou Cooperative selects the most motivated, brightest artisans across Morocco to help run the operations of the cooperative. This ensures that artisans have access to gaining skills mostly reserved for middlemen and foreigners. Learn more.",selenium
+p,FATIMA BRAHIMI,selenium
+p,President & Founder of Association Afous Gafous,selenium
+p,Anou Artisan Leader Operations Specialists,selenium
+p,MUSTAPHA CHAOUAI,selenium
+p,President & Founder of Association Nahda,selenium
+p,Anou Artisan Leader Operations Specialists,selenium
+p,BRAHIM EL MANSOURI,selenium
+p,President & Founder of Association Ighrem,selenium
+p,Wood Carver,selenium
+p,Anou Artisan Leader Wool Specialist,selenium
+p,HALIMA AMAMI,selenium
+p,President & Founder of Cooperative Zaouia,selenium
+p,Anou Artisan Leader Dye Specialist,selenium
+p,RACHIDA OUSBIGH,selenium
+p,President & Founder of Cooperative Tiglmamin,selenium
+p,Anou Artisan Leader Operations Specialist,selenium
+p,FATIMA ANASIRI,selenium
+p,Member of Association Afous Gafous,selenium
+p,Anou Artisan Leader Store Specialist,selenium
+p,KENZA OULGHADA,selenium
+p,President & Founder of Cooperative Tithrite,selenium
+p,Anou Artisan Leader Operations Specialist,selenium
+p,RABHA AKKAOUI,selenium
+p,President & Founder of Cooperative Talassine,selenium
+p,Anou Artisan Leader Store Specialist,selenium
+p,As an artisan leaders Fatima Naciri supports groups like Cooperative Timzounine on colors and development of a new rugs. Fatima is an weaver of Association Afous G Afous and specialist in Anou dye work.,selenium
+a,Cooperative Timzounine,selenium
+a,Association Afous G Afous,selenium
+p,OUR PROCESS,selenium
+p,"Anou uses technology to reduce the complexity of global commerce so that artisans can easily connect with an individual customer in upstate New York, or a purchasing manager from West Elm. Anou is automating traditional middlemen work and ensuring the resulting wealth stays in artisan hands.",selenium
+p,Training & Onboarding,selenium
+p,Adding Products,selenium
+p,ADDING PRODUCTS,selenium
+p,"For every artisan that joins the community, Anou creates a customized tool that enables to post product to Anou and create comprehensive product pages -- all with clicks on a language free interface demonstrated on the right.",selenium
+p,Kenza is a weaver and the president of Association Tithrite. Kenza has flown all around the world to speak about Anou and the change the artisan community is seeking to create.,selenium
+a,Association Tithrite,selenium
+p,The Cooperative,selenium
+p,Sustainability,selenium
+p,Retail Partnerships,selenium
+p,Hello@theanou.com,selenium
+p,Experiences,selenium
+p,Artisan Experiences,selenium
+p,Fez Workshops,selenium
+p,صانعة تقليدي(ة),selenium
+p,Your Preferences,selenium
+p,Your Saved Favorites,selenium
+p,Select Shipping/Currency,selenium
+option,Select Shipping/Currency,selenium
+option,United States,selenium
+option,Afghanistan,selenium
+option,Aland Islands,selenium
+option,American Samoa,selenium
+option,Bouvet Island,selenium
+option,Brunei Darussalam,selenium
+option,Burkina Faso,selenium
+option,Cayman Islands,selenium
+option,Christmas Island,selenium
+option,Cocos (Keeling) Islands,selenium
+option,Cook Islands,selenium
+option,Cote D'Ivoire,selenium
+option,Czech Republic,selenium
+option,Dominican Republic,selenium
+option,El Salvador,selenium
+option,Equatorial Guinea,selenium
+option,Faroe Islands,selenium
+option,French Guiana,selenium
+option,French Polynesia,selenium
+option,Guinea-Bissau,selenium
+option,"Iran, Islamic Republic of",selenium
+option,Isle of Man,selenium
+option,South Korea,selenium
+option,Liechtenstein,selenium
+option,Marshall Islands,selenium
+option,Netherlands,selenium
+option,New Zealand,selenium
+option,Philippines,selenium
+option,Puerto Rico,selenium
+option,Russian Federation,selenium
+option,Sao Tome and Principe,selenium
+option,Saudi Arabia,selenium
+option,Sierra Leone,selenium
+option,Sint Maarten,selenium
+option,Solomon Islands,selenium
+option,South Africa,selenium
+option,South Sudan,selenium
+option,Svalbard and Jan Mayen,selenium
+option,Switzerland,selenium
+option,Timor-Leste,selenium
+option,Trinidad and Tobago,selenium
+option,Turkmenistan,selenium
+option,United Arab Emirates,selenium
+option,United Kingdom,selenium
+p,©2023 The Anou Cooperative | Owned and Managed by Morocco's Artisan Community,selenium
+div,✉️ Need help? Contact us!,selenium
+p,Anou's Website is Changing! Is something not working as expected? Email us at hello@theanou.com,bs4
+p,EXPERIENCES,bs4
+p,You have no items in your cart.,bs4
+p,Add items to your cart to learn how to save money on shipping.,bs4
+p,Experiences,bs4
+p,OUR MISSION,bs4
+p,ABOUT THE ANOU COOPERATIVE,bs4
+p,"The Anou Cooperative is an award winning collective of over 600 artisans from cooperatives, associations,
+  and workshops across Morocco. The Anou Cooperative is owned and managed by Morocco's artisan community and 
+  is open to all authentic artisans committed to quality and transparency.",bs4
+p,OUR THEORY OF CHANGE,bs4
+p,"Fair Trade has existed for decades but Moroccan artisans are fewer and poorer than ever. 
+    This is because real change in the artisan sector doesn't happen by paying artisans a little extra money. 
+    For craft in Morocco to flourish, artisans need wealth, real skills, and most importantly, real power.",bs4
+p,MIDDLEMAN MODEL,bs4
+p,"Products beautifully displayed in Marrakech or Instagram only net artisans less than 4% of what you pay. Oftentimes, 
+        this doesn't even cover the cost of the material of of the product.",bs4
+p,FAIR TRADE MODEL,bs4
+p,"Fair trade pays a little better, but not enough to create meaningful sector wide change. The 80% not only represents
+        80% in lost income, but the real skills in running businesses artisans are never an opportunity to learn.",bs4
+p,ARTISAN OWNED MODEL,bs4
+p,"Through Anou, artisans earn what fair-trade organizations traditionally make. Most important, the 20% is all 
+      recycled back into the artisan community through training or employment and creating collective power to change the future
+    of craft.",bs4
+p,"Mustapha is both a metalsmith of Association Nahda and an Anou artisan leader specializing in operations. Right, 
+       Mustapha facilitates a meeting with Cooperative Tadighoust to help them improve their internal bylaws.",bs4
+p,MEET THE ARTISAN TEAM,bs4
+p,"The Anou Cooperative selects the most motivated, brightest artisans across Morocco to help run the operations 
+      of the cooperative. This ensures that artisans have access to gaining skills mostly reserved for middlemen and foreigners. Learn more.",bs4
+p,FATIMA BRAHIMI,bs4
+p,President & Founder of Association Afous Gafous,bs4
+p,Anou Artisan Leader Operations Specialists,bs4
+p,MUSTAPHA CHAOUAI,bs4
+p,President & Founder of Association Nahda,bs4
+p,Anou Artisan Leader Operations Specialists,bs4
+p,BRAHIM EL MANSOURI,bs4
+p,President & Founder of Association Ighrem,bs4
+p,Wood Carver,bs4
+p,Anou Artisan Leader Wool Specialist,bs4
+p,HALIMA AMAMI,bs4
+p,President & Founder of Cooperative Zaouia,bs4
+p,Anou Artisan Leader Dye Specialist,bs4
+p,RACHIDA OUSBIGH,bs4
+p,President & Founder of Cooperative Tiglmamin,bs4
+p,Anou Artisan Leader Operations Specialist,bs4
+p,FATIMA ANASIRI,bs4
+p,Member of Association Afous Gafous,bs4
+p,Anou Artisan Leader Store Specialist,bs4
+p,KENZA OULGHADA,bs4
+p,President & Founder of Cooperative Tithrite,bs4
+p,Anou Artisan Leader Operations Specialist,bs4
+p,RABHA AKKAOUI,bs4
+p,President & Founder of Cooperative Talassine,bs4
+p,Anou Artisan Leader Store Specialist,bs4
+p,"As an artisan leaders Fatima Naciri supports groups like Cooperative
+      Timzounine on colors and development of a new rugs.  Fatima is an weaver of Association Afous G Afous and specialist in Anou dye work.",bs4
+p,OUR PROCESS,bs4
+p,"Anou uses technology to reduce the complexity of global commerce so that artisans can easily connect with an individual
+    customer in upstate New York, or a purchasing manager from West Elm. Anou is automating traditional middlemen work and ensuring the resulting 
+    wealth stays in artisan hands.",bs4
+p,Training & Onboarding,bs4
+p,Adding Products,bs4
+p,"All artisans who make the product they sell are welcome to join Anou provided they agree to Anou's transparency requirements
+    and are motivated. When an artisan expresses an interest to join, an Anou artisan leader visits the artisans workshop and 
+  verifies that the artisan makes what they sell. After the initial screening, the artisan undergoes a two day training
+which includes setting up their profile, an introductory training into pricing, photography and other basics of selling online.",bs4
+p,ADDING PRODUCTS,bs4
+p,"For every artisan that joins the community, Anou creates a customized tool that enables to post product to Anou and create comprehensive product pages 
+  -- all with clicks on a language free interface demonstrated on the right.",bs4
+p,"All orders ship directly from the artisan that made the product. The means your shipment can come from the coast of the atlantic, snow capped peaks of the Atlas, or the deserts of the Anti-Atlas. 
+      Despite the distance and geographic challenges, shipments are insured so you can simply just enjoy the journey.",bs4
+p,QUALITY GUARANTEE,bs4
+p,"Artisans ship your orders to Anou's artisan run store, where artisan leaders inspect every shipment to make sure it meets our standards. Artisan leaders
+    use a proprietary app that enables them to record the results of Anou's six point quality control process and inform the customer.",bs4
+p,"Kenza is a weaver and the president of Association Tithrite . Kenza has flown all around the world to speak about Anou and the change
+        the artisan community is seeking to create.",bs4
+p,The Cooperative,bs4
+p,Sustainability,bs4
+p,Retail Partnerships,bs4
+p,Hello@theanou.com,bs4
+p,Experiences,bs4
+p,Artisan Experiences,bs4
+p,Fez Workshops,bs4
+p,صانعة تقليدي(ة),bs4
+p,Your Preferences,bs4
+p,Your Saved Favorites,bs4
+p,Select Shipping/Currency,bs4
+p,©2023 The Anou Cooperative | Owned and Managed by Morocco's Artisan Community,bs4
+p,"Keep up with Anou artisans and join their adventures to transform Moroccan craft, sign up for our newsletter here:",bs4
+p,Got a question? Sent it here and an Anou artisan mentor will be in touch via email with an answer shortly. You will receive an automatic email notification once your message is submitted.,bs4
+h1,Create an artisan owned & managed Moroccan craft economy.,bs4
+h2,Contact us!,bs4
+h3,Stay Updated!,bs4
+div,Anou's Website is Changing! Is something not working as expected? Email us at hello@theanou.com,bs4
+div,SHOP ABOUT EXPERIENCES WORKSHOPS Your Cart You have no items in your cart. Add items to your cart to learn how to save money on shipping. ☰ 𐄂 My Cart ▴ Shop ▴ Experiences ▴ About ▴ Blog ▴,bs4
+div,EXPERIENCES,bs4
+div,Your Cart You have no items in your cart. Add items to your cart to learn how to save money on shipping.,bs4
+div,Your Cart You have no items in your cart. Add items to your cart to learn how to save money on shipping.,bs4
+div,Your Cart You have no items in your cart. Add items to your cart to learn how to save money on shipping.,bs4
+div,Your Cart You have no items in your cart. Add items to your cart to learn how to save money on shipping.,bs4
+div,You have no items in your cart.,bs4
+div,Add items to your cart to learn how to save money on shipping.,bs4
+div,My Cart ▴ Shop ▴ Experiences ▴ About ▴ Blog ▴,bs4
+div,My Cart ▴ Shop ▴ Experiences ▴ About ▴ Blog ▴,bs4
+div,My Cart ▴ Shop ▴ Experiences ▴ About ▴ Blog ▴,bs4
+div,Experiences ▴,bs4
+div,"OUR MISSION Create an artisan owned & managed Moroccan craft economy. ABOUT THE ANOU COOPERATIVE The Anou Cooperative is an award winning collective of over 600 artisans from cooperatives, associations,
+  and workshops across Morocco. The Anou Cooperative is owned and managed by Morocco's artisan community and 
+  is open to all authentic artisans committed to quality and transparency. OUR THEORY OF CHANGE Fair Trade has existed for decades but Moroccan artisans are fewer and poorer than ever. 
+    This is because real change in the artisan sector doesn't happen by paying artisans a little extra money. 
+    For craft in Morocco to flourish, artisans need wealth, real skills, and most importantly, real power. MIDDLEMAN MODEL Products beautifully displayed in Marrakech or Instagram only net artisans less than 4% of what you pay. Oftentimes, 
+        this doesn't even cover the cost of the material of of the product. FAIR TRADE MODEL Fair trade pays a little better, but not enough to create meaningful sector wide change. The 80% not only represents
+        80% in lost income, but the real skills in running businesses artisans are never an opportunity to learn. ARTISAN OWNED MODEL Through Anou, artisans earn what fair-trade organizations traditionally make. Most important, the 20% is all 
+      recycled back into the artisan community through training or employment and creating collective power to change the future
+    of craft. Mustapha is both a metalsmith of Association Nahda and an Anou artisan leader specializing in operations. Right, 
+       Mustapha facilitates a meeting with Cooperative Tadighoust to help them improve their internal bylaws. MEET THE ARTISAN TEAM The Anou Cooperative selects the most motivated, brightest artisans across Morocco to help run the operations 
+      of the cooperative. This ensures that artisans have access to gaining skills mostly reserved for middlemen and foreigners. Learn more. FATIMA BRAHIMI President & Founder of Association Afous Gafous Weaver Anou Artisan Leader Operations Specialists MUSTAPHA CHAOUAI President & Founder of Association Nahda Metalsmith Anou Artisan Leader Operations Specialists BRAHIM EL MANSOURI President & Founder of Association Ighrem Wood Carver Anou Artisan Leader Wool Specialist HALIMA AMAMI President & Founder of Cooperative Zaouia Weaver Anou Artisan Leader Dye Specialist RACHIDA OUSBIGH President & Founder of Cooperative Tiglmamin Weaver Anou Artisan Leader Operations Specialist FATIMA ANASIRI Member of Association Afous Gafous Weaver Anou Artisan Leader Store Specialist KENZA OULGHADA President & Founder of Cooperative Tithrite Weaver Anou Artisan Leader Operations Specialist RABHA AKKAOUI President & Founder of Cooperative Talassine Weaver Anou Artisan Leader Store Specialist",bs4
+div,OUR MISSION Create an artisan owned & managed Moroccan craft economy.,bs4
+div,OUR MISSION Create an artisan owned & managed Moroccan craft economy.,bs4
+div,OUR MISSION Create an artisan owned & managed Moroccan craft economy.,bs4
+div,"ABOUT THE ANOU COOPERATIVE The Anou Cooperative is an award winning collective of over 600 artisans from cooperatives, associations,
+  and workshops across Morocco. The Anou Cooperative is owned and managed by Morocco's artisan community and 
+  is open to all authentic artisans committed to quality and transparency.",bs4
+div,"OUR THEORY OF CHANGE Fair Trade has existed for decades but Moroccan artisans are fewer and poorer than ever. 
+    This is because real change in the artisan sector doesn't happen by paying artisans a little extra money. 
+    For craft in Morocco to flourish, artisans need wealth, real skills, and most importantly, real power.",bs4
+div,"MIDDLEMAN MODEL Products beautifully displayed in Marrakech or Instagram only net artisans less than 4% of what you pay. Oftentimes, 
+        this doesn't even cover the cost of the material of of the product. FAIR TRADE MODEL Fair trade pays a little better, but not enough to create meaningful sector wide change. The 80% not only represents
+        80% in lost income, but the real skills in running businesses artisans are never an opportunity to learn. ARTISAN OWNED MODEL Through Anou, artisans earn what fair-trade organizations traditionally make. Most important, the 20% is all 
+      recycled back into the artisan community through training or employment and creating collective power to change the future
+    of craft.",bs4
+div,"MIDDLEMAN MODEL Products beautifully displayed in Marrakech or Instagram only net artisans less than 4% of what you pay. Oftentimes, 
+        this doesn't even cover the cost of the material of of the product.",bs4
+div,"FAIR TRADE MODEL Fair trade pays a little better, but not enough to create meaningful sector wide change. The 80% not only represents
+        80% in lost income, but the real skills in running businesses artisans are never an opportunity to learn.",bs4
+div,"ARTISAN OWNED MODEL Through Anou, artisans earn what fair-trade organizations traditionally make. Most important, the 20% is all 
+      recycled back into the artisan community through training or employment and creating collective power to change the future
+    of craft.",bs4
+div,"Mustapha is both a metalsmith of Association Nahda and an Anou artisan leader specializing in operations. Right, 
+       Mustapha facilitates a meeting with Cooperative Tadighoust to help them improve their internal bylaws.",bs4
+div,"Mustapha is both a metalsmith of Association Nahda and an Anou artisan leader specializing in operations. Right, 
+       Mustapha facilitates a meeting with Cooperative Tadighoust to help them improve their internal bylaws.",bs4
+div,"Mustapha is both a metalsmith of Association Nahda and an Anou artisan leader specializing in operations. Right, 
+       Mustapha facilitates a meeting with Cooperative Tadighoust to help them improve their internal bylaws.",bs4
+div,"MEET THE ARTISAN TEAM The Anou Cooperative selects the most motivated, brightest artisans across Morocco to help run the operations 
+      of the cooperative. This ensures that artisans have access to gaining skills mostly reserved for middlemen and foreigners. Learn more. FATIMA BRAHIMI President & Founder of Association Afous Gafous Weaver Anou Artisan Leader Operations Specialists MUSTAPHA CHAOUAI President & Founder of Association Nahda Metalsmith Anou Artisan Leader Operations Specialists BRAHIM EL MANSOURI President & Founder of Association Ighrem Wood Carver Anou Artisan Leader Wool Specialist HALIMA AMAMI President & Founder of Cooperative Zaouia Weaver Anou Artisan Leader Dye Specialist RACHIDA OUSBIGH President & Founder of Cooperative Tiglmamin Weaver Anou Artisan Leader Operations Specialist FATIMA ANASIRI Member of Association Afous Gafous Weaver Anou Artisan Leader Store Specialist KENZA OULGHADA President & Founder of Cooperative Tithrite Weaver Anou Artisan Leader Operations Specialist RABHA AKKAOUI President & Founder of Cooperative Talassine Weaver Anou Artisan Leader Store Specialist",bs4
+div,"MEET THE ARTISAN TEAM The Anou Cooperative selects the most motivated, brightest artisans across Morocco to help run the operations 
+      of the cooperative. This ensures that artisans have access to gaining skills mostly reserved for middlemen and foreigners. Learn more.",bs4
+div,FATIMA BRAHIMI President & Founder of Association Afous Gafous Weaver Anou Artisan Leader Operations Specialists MUSTAPHA CHAOUAI President & Founder of Association Nahda Metalsmith Anou Artisan Leader Operations Specialists BRAHIM EL MANSOURI President & Founder of Association Ighrem Wood Carver Anou Artisan Leader Wool Specialist HALIMA AMAMI President & Founder of Cooperative Zaouia Weaver Anou Artisan Leader Dye Specialist RACHIDA OUSBIGH President & Founder of Cooperative Tiglmamin Weaver Anou Artisan Leader Operations Specialist FATIMA ANASIRI Member of Association Afous Gafous Weaver Anou Artisan Leader Store Specialist KENZA OULGHADA President & Founder of Cooperative Tithrite Weaver Anou Artisan Leader Operations Specialist RABHA AKKAOUI President & Founder of Cooperative Talassine Weaver Anou Artisan Leader Store Specialist,bs4
+div,FATIMA BRAHIMI President & Founder of Association Afous Gafous Weaver Anou Artisan Leader Operations Specialists MUSTAPHA CHAOUAI President & Founder of Association Nahda Metalsmith Anou Artisan Leader Operations Specialists BRAHIM EL MANSOURI President & Founder of Association Ighrem Wood Carver Anou Artisan Leader Wool Specialist HALIMA AMAMI President & Founder of Cooperative Zaouia Weaver Anou Artisan Leader Dye Specialist RACHIDA OUSBIGH President & Founder of Cooperative Tiglmamin Weaver Anou Artisan Leader Operations Specialist FATIMA ANASIRI Member of Association Afous Gafous Weaver Anou Artisan Leader Store Specialist KENZA OULGHADA President & Founder of Cooperative Tithrite Weaver Anou Artisan Leader Operations Specialist RABHA AKKAOUI President & Founder of Cooperative Talassine Weaver Anou Artisan Leader Store Specialist,bs4
+div,FATIMA BRAHIMI President & Founder of Association Afous Gafous Weaver Anou Artisan Leader Operations Specialists,bs4
+div,FATIMA BRAHIMI President & Founder of Association Afous Gafous Weaver Anou Artisan Leader Operations Specialists,bs4
+div,MUSTAPHA CHAOUAI President & Founder of Association Nahda Metalsmith Anou Artisan Leader Operations Specialists,bs4
+div,MUSTAPHA CHAOUAI President & Founder of Association Nahda Metalsmith Anou Artisan Leader Operations Specialists,bs4
+div,BRAHIM EL MANSOURI President & Founder of Association Ighrem Wood Carver Anou Artisan Leader Wool Specialist,bs4
+div,BRAHIM EL MANSOURI President & Founder of Association Ighrem Wood Carver Anou Artisan Leader Wool Specialist,bs4
+div,HALIMA AMAMI President & Founder of Cooperative Zaouia Weaver Anou Artisan Leader Dye Specialist,bs4
+div,HALIMA AMAMI President & Founder of Cooperative Zaouia Weaver Anou Artisan Leader Dye Specialist,bs4
+div,RACHIDA OUSBIGH President & Founder of Cooperative Tiglmamin Weaver Anou Artisan Leader Operations Specialist,bs4
+div,RACHIDA OUSBIGH President & Founder of Cooperative Tiglmamin Weaver Anou Artisan Leader Operations Specialist,bs4
+div,FATIMA ANASIRI Member of Association Afous Gafous Weaver Anou Artisan Leader Store Specialist,bs4
+div,FATIMA ANASIRI Member of Association Afous Gafous Weaver Anou Artisan Leader Store Specialist,bs4
+div,KENZA OULGHADA President & Founder of Cooperative Tithrite Weaver Anou Artisan Leader Operations Specialist,bs4
+div,KENZA OULGHADA President & Founder of Cooperative Tithrite Weaver Anou Artisan Leader Operations Specialist,bs4
+div,RABHA AKKAOUI President & Founder of Cooperative Talassine Weaver Anou Artisan Leader Store Specialist,bs4
+div,RABHA AKKAOUI President & Founder of Cooperative Talassine Weaver Anou Artisan Leader Store Specialist,bs4
+div,"As an artisan leaders Fatima Naciri supports groups like Cooperative
+      Timzounine on colors and development of a new rugs.  Fatima is an weaver of Association Afous G Afous and specialist in Anou dye work.",bs4
+div,"As an artisan leaders Fatima Naciri supports groups like Cooperative
+      Timzounine on colors and development of a new rugs.  Fatima is an weaver of Association Afous G Afous and specialist in Anou dye work.",bs4
+div,"As an artisan leaders Fatima Naciri supports groups like Cooperative
+      Timzounine on colors and development of a new rugs.  Fatima is an weaver of Association Afous G Afous and specialist in Anou dye work.",bs4
+div,"OUR PROCESS Anou uses technology to reduce the complexity of global commerce so that artisans can easily connect with an individual
+    customer in upstate New York, or a purchasing manager from West Elm. Anou is automating traditional middlemen work and ensuring the resulting 
+    wealth stays in artisan hands.",bs4
+div,Training & Onboarding Adding Products Shipping Quality,bs4
+div,"All artisans who make the product they sell are welcome to join Anou provided they agree to Anou's transparency requirements
+    and are motivated. When an artisan expresses an interest to join, an Anou artisan leader visits the artisans workshop and 
+  verifies that the artisan makes what they sell. After the initial screening, the artisan undergoes a two day training
+which includes setting up their profile, an introductory training into pricing, photography and other basics of selling online.",bs4
+div,"All artisans who make the product they sell are welcome to join Anou provided they agree to Anou's transparency requirements
+    and are motivated. When an artisan expresses an interest to join, an Anou artisan leader visits the artisans workshop and 
+  verifies that the artisan makes what they sell. After the initial screening, the artisan undergoes a two day training
+which includes setting up their profile, an introductory training into pricing, photography and other basics of selling online.",bs4
+div,"ADDING PRODUCTS For every artisan that joins the community, Anou creates a customized tool that enables to post product to Anou and create comprehensive product pages 
+  -- all with clicks on a language free interface demonstrated on the right.",bs4
+div,"ADDING PRODUCTS For every artisan that joins the community, Anou creates a customized tool that enables to post product to Anou and create comprehensive product pages 
+  -- all with clicks on a language free interface demonstrated on the right.",bs4
+div,"ADDING PRODUCTS For every artisan that joins the community, Anou creates a customized tool that enables to post product to Anou and create comprehensive product pages 
+  -- all with clicks on a language free interface demonstrated on the right.",bs4
+div,"ADDING PRODUCTS For every artisan that joins the community, Anou creates a customized tool that enables to post product to Anou and create comprehensive product pages 
+  -- all with clicks on a language free interface demonstrated on the right.",bs4
+div,"All orders ship directly from the artisan that made the product. The means your shipment can come from the coast of the atlantic, snow capped peaks of the Atlas, or the deserts of the Anti-Atlas. 
+      Despite the distance and geographic challenges, shipments are insured so you can simply just enjoy the journey.",bs4
+div,"All orders ship directly from the artisan that made the product. The means your shipment can come from the coast of the atlantic, snow capped peaks of the Atlas, or the deserts of the Anti-Atlas. 
+      Despite the distance and geographic challenges, shipments are insured so you can simply just enjoy the journey.",bs4
+div,"QUALITY GUARANTEE Artisans ship your orders to Anou's artisan run store, where artisan leaders inspect every shipment to make sure it meets our standards. Artisan leaders
+    use a proprietary app that enables them to record the results of Anou's six point quality control process and inform the customer.",bs4
+div,"QUALITY GUARANTEE Artisans ship your orders to Anou's artisan run store, where artisan leaders inspect every shipment to make sure it meets our standards. Artisan leaders
+    use a proprietary app that enables them to record the results of Anou's six point quality control process and inform the customer.",bs4
+div,"QUALITY GUARANTEE Artisans ship your orders to Anou's artisan run store, where artisan leaders inspect every shipment to make sure it meets our standards. Artisan leaders
+    use a proprietary app that enables them to record the results of Anou's six point quality control process and inform the customer.",bs4
+div,"QUALITY GUARANTEE Artisans ship your orders to Anou's artisan run store, where artisan leaders inspect every shipment to make sure it meets our standards. Artisan leaders
+    use a proprietary app that enables them to record the results of Anou's six point quality control process and inform the customer.",bs4
+div,"Kenza is a weaver and the president of Association Tithrite . Kenza has flown all around the world to speak about Anou and the change
+        the artisan community is seeking to create.",bs4
+div,"Kenza is a weaver and the president of Association Tithrite . Kenza has flown all around the world to speak about Anou and the change
+        the artisan community is seeking to create.",bs4
+div,"Kenza is a weaver and the president of Association Tithrite . Kenza has flown all around the world to speak about Anou and the change
+        the artisan community is seeking to create.",bs4
+div,"The Cooperative About Sustainability Retail Partnerships Jobs Donate Connect Newsletter Blog Instagram Facebook Hello@theanou.com Experiences Artisan Experiences Fez Store Fez Workshops صانعة تقليدي(ة) انضم إلينا Your Preferences Your Saved Favorites Select Shipping/Currency Select Shipping/Currency United States Afghanistan Aland Islands Albania Algeria American Samoa Andorra Angola Anguilla Antarctica Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Botswana Bouvet Island Brazil Brunei Darussalam Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Cape Verde Cayman Islands Chad Chile China Christmas Island Cocos (Keeling) Islands Colombia Comoros Congo Cook Islands Costa Rica Cote D'Ivoire Croatia Cuba Curacao Cyprus Czech Republic Denmark Djibouti Dominica Dominican Republic Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Ethiopia Faroe Islands Fiji Finland France French Guiana French Polynesia Gabon Gambia Georgia Germany Ghana Gibraltar Greece Greenland Grenada Guadeloupe Guam Guatemala Guernsey Guinea Guinea-Bissau Guyana Haiti Honduras Hong Kong Hungary Iceland India Indonesia Iran, Islamic Republic of Iraq Ireland Isle of Man Italy Jamaica Japan Jersey Jordan Kazakhstan Kenya Kiribati South Korea Kosovo Kuwait Kyrgyzstan Latvia Lebanon Lesotho Liberia Liechtenstein Lithuania Luxembourg Macao Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique Mauritania Mauritius Mayotte Mexico Monaco Mongolia Montenegro Montserrat Morocco Mozambique Myanmar Namibia Nauru Nepal Netherlands New Zealand Nicaragua Niger Nigeria Niue Norway Oman Pakistan Palau Panama Paraguay Peru Philippines Pitcairn Poland Portugal Puerto Rico Qatar Reunion Romania Russian Federation Samoa San Marino Sao Tome and Principe Saudi Arabia Senegal Serbia Seychelles Sierra Leone Singapore Sint Maarten Slovakia Slovenia Solomon Islands Somalia South Africa South Sudan Spain Sri Lanka Sudan Suriname Svalbard and Jan Mayen Swaziland Sweden Switzerland Tajikistan Thailand Timor-Leste Togo Tokelau Tonga Trinidad and Tobago Tunisia Turkey Turkmenistan Tuvalu Uganda Ukraine United Arab Emirates United Kingdom Uruguay Uzbekistan Vanuatu Venezuela ©2023 The Anou Cooperative | Owned and Managed by Morocco's Artisan Community × Stay Updated! Keep up with Anou artisans and join their adventures to transform Moroccan craft, sign up for our newsletter here: Subscribe!",bs4
+div,"The Cooperative About Sustainability Retail Partnerships Jobs Donate Connect Newsletter Blog Instagram Facebook Hello@theanou.com Experiences Artisan Experiences Fez Store Fez Workshops صانعة تقليدي(ة) انضم إلينا Your Preferences Your Saved Favorites Select Shipping/Currency Select Shipping/Currency United States Afghanistan Aland Islands Albania Algeria American Samoa Andorra Angola Anguilla Antarctica Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Botswana Bouvet Island Brazil Brunei Darussalam Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Cape Verde Cayman Islands Chad Chile China Christmas Island Cocos (Keeling) Islands Colombia Comoros Congo Cook Islands Costa Rica Cote D'Ivoire Croatia Cuba Curacao Cyprus Czech Republic Denmark Djibouti Dominica Dominican Republic Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Ethiopia Faroe Islands Fiji Finland France French Guiana French Polynesia Gabon Gambia Georgia Germany Ghana Gibraltar Greece Greenland Grenada Guadeloupe Guam Guatemala Guernsey Guinea Guinea-Bissau Guyana Haiti Honduras Hong Kong Hungary Iceland India Indonesia Iran, Islamic Republic of Iraq Ireland Isle of Man Italy Jamaica Japan Jersey Jordan Kazakhstan Kenya Kiribati South Korea Kosovo Kuwait Kyrgyzstan Latvia Lebanon Lesotho Liberia Liechtenstein Lithuania Luxembourg Macao Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique Mauritania Mauritius Mayotte Mexico Monaco Mongolia Montenegro Montserrat Morocco Mozambique Myanmar Namibia Nauru Nepal Netherlands New Zealand Nicaragua Niger Nigeria Niue Norway Oman Pakistan Palau Panama Paraguay Peru Philippines Pitcairn Poland Portugal Puerto Rico Qatar Reunion Romania Russian Federation Samoa San Marino Sao Tome and Principe Saudi Arabia Senegal Serbia Seychelles Sierra Leone Singapore Sint Maarten Slovakia Slovenia Solomon Islands Somalia South Africa South Sudan Spain Sri Lanka Sudan Suriname Svalbard and Jan Mayen Swaziland Sweden Switzerland Tajikistan Thailand Timor-Leste Togo Tokelau Tonga Trinidad and Tobago Tunisia Turkey Turkmenistan Tuvalu Uganda Ukraine United Arab Emirates United Kingdom Uruguay Uzbekistan Vanuatu Venezuela ©2023 The Anou Cooperative | Owned and Managed by Morocco's Artisan Community",bs4
+div,"The Cooperative About Sustainability Retail Partnerships Jobs Donate Connect Newsletter Blog Instagram Facebook Hello@theanou.com Experiences Artisan Experiences Fez Store Fez Workshops صانعة تقليدي(ة) انضم إلينا Your Preferences Your Saved Favorites Select Shipping/Currency Select Shipping/Currency United States Afghanistan Aland Islands Albania Algeria American Samoa Andorra Angola Anguilla Antarctica Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Botswana Bouvet Island Brazil Brunei Darussalam Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Cape Verde Cayman Islands Chad Chile China Christmas Island Cocos (Keeling) Islands Colombia Comoros Congo Cook Islands Costa Rica Cote D'Ivoire Croatia Cuba Curacao Cyprus Czech Republic Denmark Djibouti Dominica Dominican Republic Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Ethiopia Faroe Islands Fiji Finland France French Guiana French Polynesia Gabon Gambia Georgia Germany Ghana Gibraltar Greece Greenland Grenada Guadeloupe Guam Guatemala Guernsey Guinea Guinea-Bissau Guyana Haiti Honduras Hong Kong Hungary Iceland India Indonesia Iran, Islamic Republic of Iraq Ireland Isle of Man Italy Jamaica Japan Jersey Jordan Kazakhstan Kenya Kiribati South Korea Kosovo Kuwait Kyrgyzstan Latvia Lebanon Lesotho Liberia Liechtenstein Lithuania Luxembourg Macao Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique Mauritania Mauritius Mayotte Mexico Monaco Mongolia Montenegro Montserrat Morocco Mozambique Myanmar Namibia Nauru Nepal Netherlands New Zealand Nicaragua Niger Nigeria Niue Norway Oman Pakistan Palau Panama Paraguay Peru Philippines Pitcairn Poland Portugal Puerto Rico Qatar Reunion Romania Russian Federation Samoa San Marino Sao Tome and Principe Saudi Arabia Senegal Serbia Seychelles Sierra Leone Singapore Sint Maarten Slovakia Slovenia Solomon Islands Somalia South Africa South Sudan Spain Sri Lanka Sudan Suriname Svalbard and Jan Mayen Swaziland Sweden Switzerland Tajikistan Thailand Timor-Leste Togo Tokelau Tonga Trinidad and Tobago Tunisia Turkey Turkmenistan Tuvalu Uganda Ukraine United Arab Emirates United Kingdom Uruguay Uzbekistan Vanuatu Venezuela",bs4
+div,The Cooperative About Sustainability Retail Partnerships Jobs Donate,bs4
+div,Connect Newsletter Blog Instagram Facebook Hello@theanou.com,bs4
+div,Experiences Artisan Experiences Fez Store Fez Workshops,bs4
+div,صانعة تقليدي(ة) انضم إلينا,bs4
+div,"Your Preferences Your Saved Favorites Select Shipping/Currency Select Shipping/Currency United States Afghanistan Aland Islands Albania Algeria American Samoa Andorra Angola Anguilla Antarctica Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Botswana Bouvet Island Brazil Brunei Darussalam Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Cape Verde Cayman Islands Chad Chile China Christmas Island Cocos (Keeling) Islands Colombia Comoros Congo Cook Islands Costa Rica Cote D'Ivoire Croatia Cuba Curacao Cyprus Czech Republic Denmark Djibouti Dominica Dominican Republic Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Ethiopia Faroe Islands Fiji Finland France French Guiana French Polynesia Gabon Gambia Georgia Germany Ghana Gibraltar Greece Greenland Grenada Guadeloupe Guam Guatemala Guernsey Guinea Guinea-Bissau Guyana Haiti Honduras Hong Kong Hungary Iceland India Indonesia Iran, Islamic Republic of Iraq Ireland Isle of Man Italy Jamaica Japan Jersey Jordan Kazakhstan Kenya Kiribati South Korea Kosovo Kuwait Kyrgyzstan Latvia Lebanon Lesotho Liberia Liechtenstein Lithuania Luxembourg Macao Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique Mauritania Mauritius Mayotte Mexico Monaco Mongolia Montenegro Montserrat Morocco Mozambique Myanmar Namibia Nauru Nepal Netherlands New Zealand Nicaragua Niger Nigeria Niue Norway Oman Pakistan Palau Panama Paraguay Peru Philippines Pitcairn Poland Portugal Puerto Rico Qatar Reunion Romania Russian Federation Samoa San Marino Sao Tome and Principe Saudi Arabia Senegal Serbia Seychelles Sierra Leone Singapore Sint Maarten Slovakia Slovenia Solomon Islands Somalia South Africa South Sudan Spain Sri Lanka Sudan Suriname Svalbard and Jan Mayen Swaziland Sweden Switzerland Tajikistan Thailand Timor-Leste Togo Tokelau Tonga Trinidad and Tobago Tunisia Turkey Turkmenistan Tuvalu Uganda Ukraine United Arab Emirates United Kingdom Uruguay Uzbekistan Vanuatu Venezuela",bs4
+div,©2023 The Anou Cooperative | Owned and Managed by Morocco's Artisan Community,bs4
+div,"× Stay Updated! Keep up with Anou artisans and join their adventures to transform Moroccan craft, sign up for our newsletter here: Subscribe!",bs4
+div,"× Stay Updated! Keep up with Anou artisans and join their adventures to transform Moroccan craft, sign up for our newsletter here: Subscribe!",bs4
+div,"Stay Updated! Keep up with Anou artisans and join their adventures to transform Moroccan craft, sign up for our newsletter here: Subscribe!",bs4
+div,✉️ Need help? Contact us!,bs4
+div,Contact us! Got a question? Sent it here and an Anou artisan mentor will be in touch via email with an answer shortly. You will receive an automatic email notification once your message is submitted. Name* Email* Message* SEND,bs4
+div,Contact us! Got a question? Sent it here and an Anou artisan mentor will be in touch via email with an answer shortly. You will receive an automatic email notification once your message is submitted.,bs4
+div,Name* Email* Message* SEND,bs4

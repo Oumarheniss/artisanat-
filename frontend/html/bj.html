@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="fr-MA" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Découvrez l'art ancestral des bijoux marocains en métaux précieux, un héritage culturel exceptionnel." />
+  <title>Bijoux & Métaux Précieux | ArtMaroc.ce</title>
+
+  <!-- Polices -->
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    /* ===== VARIABLES & RESET ===== */
+    :root {
+      --primary: #f8c471;   /* Or marocain */
+      --secondary: #d35400; /* Cuivre */
+      --metal: #c0c0c0;    /* Argent */
+      --gold: #ffd700;     /* Or */
+      --dark: #0a0500;     /* Fond sombre */
+      --light: #ffeaa7;    /* Texte clair */
+      --text: #fff;        /* Texte blanc */
+      --header-h: 70px;    /* Hauteur header */
+      --section-padding: 4rem 0;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* ===== STRUCTURE DE BASE ===== */
+    body, html {
+      height: 100%;
+      font-family: 'Amiri', serif;
+      color: var(--text);
+      background: var(--dark);
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+      line-height: 1.6;
+    }
+
+    /* ===== HEADER LUXE ===== */
+    .main-header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: var(--header-h);
+      background: rgba(17, 17, 17, 0.98);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 2px 20px rgba(248, 196, 113, 0.1);
+      z-index: 100;
+      transition: all 0.3s ease;
+      border-bottom: 1px solid rgba(248, 196, 113, 0.2);
+    }
+
+    .main-header.scrolled {
+      height: calc(var(--header-h) - 10px);
+      backdrop-filter: blur(5px);
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 100%;
+    }
+
+    .logo img {
+      transition: transform 0.3s ease;
+      filter: drop-shadow(0 0 5px var(--gold));
+    }
+
+    .logo:hover img {
+      transform: scale(1.05);
+    }
+
+    .navbar ul {
+      list-style: none;
+      display: flex;
+      gap: 2.5rem;
+    }
+
+    .navbar ul li a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.2rem;
+      padding: 0.5rem;
+      position: relative;
+      transition: all 0.3s ease;
+      text-shadow: 0 0 5px rgba(248, 196, 113, 0.3);
+    }
+
+    .navbar ul li a::after {
+      content: '';
+      position: absolute;
+      bottom: -3px;
+      right: 0;
+      width: 0;
+      height: 1px;
+      background: linear-gradient(to right, var(--gold), var(--secondary));
+      transition: width 0.3s ease;
+    }
+
+    .navbar ul li a:hover {
+      color: var(--gold);
+      text-shadow: 0 0 10px var(--gold);
+    }
+
+    .navbar ul li a:hover::after {
+      width: 100%;
+      left: 0;
+    }
+
+    /* ===== MAIN CONTENT ===== */
+    .content-container {
+      padding-top: calc(var(--header-h) + 2rem);
+      position: relative;
+      z-index: 1;
+    }
+
+    .article-content {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 3rem;
+      background: rgba(0, 0, 0, 0.85);
+      backdrop-filter: blur(3px);
+      border-radius: 15px;
+      border: 1px solid rgba(248, 196, 113, 0.1);
+      box-shadow: 0 0 40px rgba(248, 196, 113, 0.2),
+                  inset 0 0 20px rgba(255, 215, 0, 0.1);
+    }
+
+    .article-header h1 {
+      text-align: center;
+      margin-bottom: 1.5rem;
+      font-size: 3rem;
+      color: var(--gold);
+      text-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+      position: relative;
+      letter-spacing: 1px;
+    }
+
+    .article-header h1::after {
+      content: '';
+      position: absolute;
+      bottom: -15px;
+      left: 30%;
+      width: 40%;
+      height: 2px;
+      background: linear-gradient(to right, transparent, var(--gold), var(--secondary), transparent);
+    }
+
+    .intro-text {
+      font-size: 1.3rem;
+      text-align: center;
+      margin-bottom: 3rem;
+      color: var(--light);
+      line-height: 1.8;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* ===== SECTIONS STYLING ===== */
+    .section-overview {
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+      margin-bottom: 4rem;
+    }
+
+    .featured-image {
+      width: 100%;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+      position: relative;
+    }
+
+    .featured-image::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to bottom, rgba(10,5,0,0.1), rgba(10,5,0,0.7));
+      z-index: 1;
+    }
+
+    .featured-image img {
+      width: 100%;
+      height: 500px;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.8s ease;
+    }
+
+    .featured-image:hover img {
+      transform: scale(1.05);
+    }
+
+    .featured-image figcaption {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding: 2rem;
+      color: var(--light);
+      z-index: 2;
+      font-size: 1.2rem;
+      text-align: center;
+      text-shadow: 0 0 10px rgba(0,0,0,0.7);
+    }
+
+    .overview-text {
+      font-size: 1.2rem;
+      line-height: 1.9;
+      text-align: justify;
+      column-count: 2;
+      column-gap: 3rem;
+    }
+
+    /* Style spécifique pour les bijoux */
+    .jewel-section {
+      margin: 4rem 0;
+      padding: 0;
+    }
+
+    .jewel-section h2 {
+      text-align: center;
+      margin-bottom: 3rem;
+      font-size: 2.5rem;
+      color: var(--gold);
+      position: relative;
+      display: inline-block;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 0 2rem;
+    }
+
+    .jewel-section h2::before,
+    .jewel-section h2::after {
+      content: '✻';
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--gold);
+      font-size: 1.5rem;
+    }
+
+    .jewel-section h2::before {
+      left: 0;
+    }
+
+    .jewel-section h2::after {
+      right: 0;
+    }
+
+    .techniques-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 3rem;
+      margin-top: 3rem;
+    }
+
+    .technique-card {
+      background: rgba(20, 15, 10, 0.7);
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+      transition: all 0.5s ease;
+      border: 1px solid rgba(248, 196, 113, 0.1);
+      position: relative;
+    }
+
+    .technique-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 15px 35px rgba(255, 215, 0, 0.2);
+      border-color: rgba(255, 215, 0, 0.3);
+    }
+
+    .technique-image {
+      width: 100%;
+      height: 250px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .technique-image::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to bottom, transparent 60%, rgba(10,5,0,0.8));
+    }
+
+    .technique-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.8s ease;
+    }
+
+    .technique-card:hover .technique-image img {
+      transform: scale(1.1);
+    }
+
+    .technique-content {
+      padding: 2rem;
+      position: relative;
+    }
+
+    .technique-content h3 {
+      color: var(--gold);
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .technique-content h3::before {
+      content: '';
+      display: inline-block;
+      width: 15px;
+      height: 15px;
+      background: var(--gold);
+      border-radius: 50%;
+    }
+
+    /* ===== GALERIE LUXE ===== */
+    .gallery-section {
+      margin: 5rem 0;
+    }
+
+    .gallery-section h2 {
+      text-align: center;
+      margin-bottom: 3rem;
+      font-size: 2.5rem;
+      color: var(--gold);
+      position: relative;
+    }
+
+    .gallery-section h2::after {
+      content: '';
+      position: absolute;
+      bottom: -15px;
+      left: 40%;
+      width: 20%;
+      height: 1px;
+      background: linear-gradient(to right, transparent, var(--gold), transparent);
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 2rem;
+      margin-top: 3rem;
+    }
+
+    .gallery-item {
+      position: relative;
+      border-radius: 5px;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+      aspect-ratio: 1/1.2;
+      transition: all 0.5s ease;
+    }
+
+    .gallery-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(255, 215, 0, 0.3);
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.8s ease, filter 0.5s ease;
+    }
+
+    .gallery-item:hover img {
+      transform: scale(1.1);
+      filter: brightness(1.1);
+    }
+
+    .gallery-caption {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding: 1.5rem;
+      background: linear-gradient(to top, rgba(0,0,0,0.9), transparent);
+      color: white;
+      transform: translateY(100%);
+      transition: transform 0.5s ease;
+    }
+
+    .gallery-item:hover .gallery-caption {
+      transform: translateY(0);
+    }
+
+    .jewel-meta {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 0.5rem;
+      color: var(--gold);
+      font-size: 0.9rem;
+    }
+
+    /* ===== CONCLUSION ===== */
+    .conclusion {
+      margin: 5rem 0 3rem;
+      padding: 3rem;
+      background: rgba(20, 15, 10, 0.7);
+      border-radius: 10px;
+      border-left: 4px solid var(--gold);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .conclusion::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      right: -50%;
+      width: 100%;
+      height: 200%;
+      background: radial-gradient(circle, rgba(255,215,0,0.05) 0%, transparent 70%);
+      z-index: -1;
+    }
+
+    .conclusion h2 {
+      color: var(--gold);
+      margin-bottom: 1.5rem;
+      font-size: 2rem;
+      position: relative;
+      display: inline-block;
+    }
+
+    .conclusion h2::after {
+      content: '';
+      position: absolute;
+      bottom: -5px;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      background: linear-gradient(to right, var(--gold), transparent);
+    }
+
+    /* ===== BUTTONS ===== */
+    .btn-return {
+      display: inline-block;
+      padding: 1rem 2.5rem;
+      margin-top: 2rem;
+      background: transparent;
+      border: 1px solid var(--gold);
+      border-radius: 50px;
+      color: var(--gold);
+      font-weight: bold;
+      text-decoration: none;
+      transition: all 0.5s ease;
+      position: relative;
+      overflow: hidden;
+      z-index: 1;
+      letter-spacing: 1px;
+    }
+
+    .btn-return::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 0;
+      height: 100%;
+      background: linear-gradient(to right, var(--gold), var(--secondary));
+      transition: width 0.5s ease;
+      z-index: -1;
+    }
+
+    .btn-return:hover {
+      color: #333;
+      transform: translateY(-3px);
+      box-shadow: 0 5px 20px rgba(255, 215, 0, 0.4);
+      letter-spacing: 1.5px;
+    }
+
+    .btn-return:hover::before {
+      width: 100%;
+      left: 0;
+    }
+
+    /* ===== FOOTER LUXE ===== */
+    .main-footer {
+      background: rgba(10, 5, 0, 0.95);
+      padding: 3rem 0;
+      text-align: center;
+      border-top: 1px solid rgba(248, 196, 113, 0.1);
+      position: relative;
+    }
+
+    .main-footer::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      background: linear-gradient(to right, transparent, var(--gold), transparent);
+    }
+
+    .main-footer p {
+      margin-bottom: 1.5rem;
+      color: var(--gold);
+      letter-spacing: 1px;
+    }
+
+    .main-footer nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+    }
+
+    .main-footer nav ul li a {
+      color: var(--light);
+      text-decoration: none;
+      transition: all 0.3s ease;
+      position: relative;
+    }
+
+    .main-footer nav ul li a::after {
+      content: '';
+      position: absolute;
+      bottom: -3px;
+      left: 0;
+      width: 0;
+      height: 1px;
+      background: var(--gold);
+      transition: width 0.3s ease;
+    }
+
+    .main-footer nav ul li a:hover {
+      color: var(--gold);
+    }
+
+    .main-footer nav ul li a:hover::after {
+      width: 100%;
+    }
+
+    /* ===== ANIMATIONS ===== */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes shine {
+      0% { box-shadow: 0 0 10px rgba(255,215,0,0.3); }
+      50% { box-shadow: 0 0 20px rgba(255,215,0,0.6); }
+      100% { box-shadow: 0 0 10px rgba(255,215,0,0.3); }
+    }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 1024px) {
+      .article-content {
+        padding: 2rem;
+      }
+      
+      .overview-text {
+        column-count: 1;
+      }
+      
+      .technique-image {
+        height: 200px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        width: 95%;
+      }
+      
+      .navbar ul {
+        gap: 1rem;
+      }
+      
+      .article-header h1 {
+        font-size: 2.2rem;
+      }
+      
+      .techniques-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+      
+      .gallery-grid {
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      }
+      
+      .conclusion {
+        padding: 2rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .navbar ul {
+        gap: 0.7rem;
+      }
+      
+      .navbar ul li a {
+        font-size: 1rem;
+      }
+      
+      .article-header h1 {
+        font-size: 1.8rem;
+      }
+      
+      .featured-image img {
+        height: 350px;
+      }
+      
+      .btn-return {
+        padding: 0.8rem 1.8rem;
+        font-size: 0.9rem;
+      }
+      
+      .main-footer nav ul {
+        flex-direction: column;
+        gap: 0.7rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="main-header">
+    <div class="container">
+      <div class="logo">
+        <a href="index.html" aria-label="Retour à l'accueil">
+         
+        </a>
+      </div>
+      <nav class="navbar" aria-label="Navigation principale">
+        <ul>
+          <li><a href="index.html" class="nav-link">Accueil</a></li>
+          <li><a href="histoire.html" class="nav-link">Historique</a></li>
+          <li><a href="categories.html" class="nav-link">Catégories</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contenu principal -->
+  <main class="content-container">
+    <article class="article-content">
+      <header class="article-header">
+        <h1>L'Art des Bijoux & Métaux Précieux</h1>
+        <p class="intro-text">
+          Plongez dans l'univers étincelant des bijoux marocains, où l'or, l'argent et les pierres précieuses 
+          se transforment en véritables œuvres d'art sous les mains expertes des maîtres artisans.
+        </p>
+      </header>
+
+      <section class="section-overview">
+        <figure class="featured-image">
+          <img src="images/bijoux.jpeg" alt="Collection de bijoux marocains traditionnels" />
+          <figcaption>Pièces exceptionnelles d'orfèvrerie marocaine - Héritage berbère et arabo-andalou</figcaption>
+        </figure>
+
+        <div class="overview-text">
+          <p>
+            L'artisanat des bijoux au Maroc est une tradition millénaire qui puise ses racines dans les cultures 
+            berbère, arabe et andalouse. Chaque région, chaque tribu a développé son propre style, ses motifs 
+            symboliques et ses techniques de fabrication uniques.
+          </p>
+          <p>
+            De l'argent massif de l'Atlas à l'or fin des villes impériales, en passant par l'émail de Fès et 
+            les pierres semi-précieuses du Sahara, les bijoux marocains racontent une histoire de savoir-faire, 
+            de statut social et de protection contre le mauvais œil.
+          </p>
+        </div>
+      </section>
+
+      <!-- Section Orfèvrerie -->
+      <section class="jewel-section">
+        <h2>L'Orfèvrerie Traditionnelle</h2>
+        
+        <div class="techniques-grid">
+          <div class="technique-card">
+            <div class="technique-image">
+              <img src="images/bijoux-berberes.jpeg" alt="Bijoux berbères en argent" />
+            </div>
+            <div class="technique-content">
+              <h3>Bijoux Berbères</h3>
+              <p>Pièces massives en argent, souvent ornées de motifs géométriques et de pierres cornalines, symboles de protection et de fertilité.</p>
+              <div class="jewel-meta">
+                <span>Technique : Cire perdue</span>
+                <span>Région : Atlas</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="technique-card">
+            <div class="technique-image">
+              <img src="images/fs.jpeg" alt="Bijoux de Fès en or émaillé" />
+            </div>
+            <div class="technique-content">
+              <h3>Orfèvrerie Fassie</h3>
+              <p>Or fin travaillé avec émaux colorés, inspiré de l'art hispano-mauresque, caractéristique des pièces de mariage.</p>
+              <div class="jewel-meta">
+                <span>Technique : Émaillage</span>
+                <span>Région : Fès</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="technique-card">
+            <div class="technique-image">
+              <img src="images/sahara.jpeg" alt="Bijoux sahariens" />
+            </div>
+            <div class="technique-content">
+              <h3>Parures Sahariennes</h3>
+              <p>Amulettes en argent et cuivre incrustées de pierres semi-précieuses, portées comme protection contre les énergies négatives.</p>
+              <div class="jewel-meta">
+                <span>Technique : Filigrane</span>
+                <span>Région : Sahara</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section Techniques -->
+      <section class="jewel-section">
+        <h2>Techniques Ancestrales</h2>
+        
+        <div class="techniques-grid">
+          <div class="technique-card">
+            <div class="technique-image">
+              <img src="images/cire.jpeg" alt="Technique de la cire perdue" />
+            </div>
+            <div class="technique-content">
+              <h3>Cire Perdue</h3>
+              <p>Méthode ancienne permettant de créer des pièces uniques en coulant le métal dans un moule de cire sculpté puis détruit.</p>
+              <div class="jewel-meta">
+                <span>Métal : Argent</span>
+                <span>Usage : Fibules, colliers</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="technique-card">
+            <div class="technique-image">
+              <img src="images/file.jpeg" alt="Travail du filigrane" />
+            </div>
+            <div class="technique-content">
+              <h3>Filigrane</h3>
+              <p>Art délicat consistant à tresser des fils métalliques très fins pour créer des motifs ajourés d'une grande finesse.</p>
+              <div class="jewel-meta">
+                <span>Métal : Or/Argent</span>
+                <span>Usage : Boucles d'oreilles</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="technique-card">
+            <div class="technique-image">
+              <img src="images/emaillage.jpeg" alt="Émaillage sur métal" />
+            </div>
+            <div class="technique-content">
+              <h3>Émaillage</h3>
+              <p>Application de poudres de verre colorées sur métal précieux, cuit à haute température pour un effet vitrifié durable.</p>
+              <div class="jewel-meta">
+                <span>Métal : Or</span>
+                <span>Usage : Ceintures, bracelets</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Galerie Bijoux -->
+      <section class="gallery-section">
+        <h2>Trésors du Patrimoine</h2>
+        <p>Découvrez une sélection de pièces emblématiques de l'orfèvrerie marocaine</p>
+        
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="images/atlas.jpeg" alt="Fibule berbère" />
+            <div class="gallery-caption">
+              <h3>Fibule Berbère</h3>
+              <p>Argent massif - Haut Atlas</p>
+              <div class="jewel-meta">
+                <span>XIIe siècle</span>
+                <span>★ ★ ★ ★ ★</span>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="images/m.jpeg" alt="Collier de mariage fassi" />
+            <div class="gallery-caption">
+              <h3>Collier de Mariage</h3>
+              <p>Or et émail - Fès</p>
+              <div class="jewel-meta">
+                <span>XIXe siècle</span>
+                <span>★ ★ ★ ★ ☆</span>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="images/bs.jpeg" alt="Bracelet saharien" />
+            <div class="gallery-caption">
+              <h3>Bracelet Saharien</h3>
+              <p>Argent et cornaline - Tafilalet</p>
+              <div class="jewel-meta">
+                <span>XVIIIe siècle</span>
+                <span>★ ★ ★ ★ ★</span>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="images/bf.jpeg" alt="Boucles d'oreilles en filigrane" />
+            <div class="gallery-caption">
+              <h3>Boucles en Filigrane</h3>
+              <p>Or fin - Meknès</p>
+              <div class="jewel-meta">
+                <span>XXe siècle</span>
+                <span>★ ★ ★ ★ ☆</span>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="images/c.jpeg" alt="Ceinture en or émaillé" />
+            <div class="gallery-caption">
+              <h3>Ceinture Royale</h3>
+              <p>Or et émail - Rabat</p>
+              <div class="jewel-meta">
+                <span>XIXe siècle</span>
+                <span>★ ★ ★ ★ ★</span>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="images/p.jpeg" alt="Amulette protectrice" />
+            <div class="gallery-caption">
+              <h3>Amulette Protectrice</h3>
+              <p>Argent et turquoise - Sud Maroc</p>
+              <div class="jewel-meta">
+                <span>XVIIe siècle</span>
+                <span>★ ★ ★ ★ ☆</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="conclusion">
+        <h2>Un Héritage à Préserver</h2>
+        <p>
+          Les bijoux marocains ne sont pas seulement des objets de parure, mais de véritables témoins de l'histoire 
+          et des croyances populaires. Chaque pièce, qu'elle soit modeste ou somptueuse, porte en elle les secrets 
+          d'un savoir-faire transmis de maître à apprenti depuis des générations.
+        </p>
+        <p>
+          Aujourd'hui, cet art ancestral connaît un renouveau grâce à des créateurs qui réinterprètent les motifs 
+          traditionnels avec une sensibilité contemporaine, tout en respectant les techniques et l'esprit des 
+          anciens.
+        </p>
+      </section>
+
+      <footer class="article-footer">
+        <a href="histoire.html" class="btn-return" aria-label="Retour aux histoire">← Retour</a>
+      </footer>
+    </article>
+  </main>
+
+
+
+  <script>
+    // Effet de réduction du header au scroll
+    window.addEventListener('scroll', function() {
+      const header = document.querySelector('.main-header');
+      if (window.scrollY > 50) {
+        header.classList.add('scrolled');
+      } else {
+        header.classList.remove('scrolled');
+      }
+    });
+
+    // Animation des cartes au chargement
+    document.addEventListener('DOMContentLoaded', function() {
+      const cards = document.querySelectorAll('.technique-card');
+      cards.forEach((card, index) => {
+        setTimeout(() => {
+          card.style.animation = 'fadeIn 0.7s ease forwards';
+        }, 200 * index);
+      });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,192 @@
+/* Reset de base et polices */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Amiri', serif;
+  color: #f5e9d9;
+  line-height: 1.8;
+  overflow-x: hidden;
+  min-height: 100vh;
+  background-color: #0a0500; /* Couleur de fallback */
+}
+
+/* ---------------------------------- */
+/* Vidéo de fond (Corrections clés) */
+/* ---------------------------------- */
+
+#background-video {
+  filter: brightness(0.7) contrast(1.1);
+}
+#background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 1; /* Visible par défaut */
+  background-color: #0a0500; /* Fond si la vidéo échoue */
+}
+
+/* Fallback mobile */
+.mobile-bg {
+  display: none; /* Caché par défaut */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('../img/fallback.jpg') no-repeat center/cover;
+  z-index: -2;
+}
+
+@media (max-width: 767px) {
+  #background-video { display: none; }
+  .mobile-bg { display: block; }
+}
+
+/* ---------------------------------- */
+/* Structure principale */
+/* ---------------------------------- */
+.container {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  padding: 2rem;
+  background: rgba(10, 5, 0, 0.4);
+  text-align: center;
+}
+
+/* Logo */
+.logo img {
+  width: 120px;
+  height: auto;
+  filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.5));
+}
+
+/* Texte hero */
+.hero-text {
+  font-size: 1.4rem;
+  margin: 2rem auto;
+  max-width: 800px;
+  opacity: 0;
+  animation: fadeInUp 2s ease-out 0.5s forwards;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Bouton CTA */
+.cta-pulse {
+  background: linear-gradient(135deg, #8b4513 0%, #a0522d 100%);
+  border: none;
+  border-radius: 50px;
+  padding: 1rem 2.5rem;
+  font-size: 1.2rem;
+  color: #fff;
+  cursor: pointer;
+  margin: 2rem auto;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.3s;
+  box-shadow: 0 4px 15px rgba(139, 69, 19, 0.4);
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease-out 1s forwards;
+}
+
+.cta-pulse:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(139, 69, 19, 0.6);
+}
+
+.cta-pulse::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: rgba(255, 255, 255, 0.1);
+  transform: scale(0);
+  border-radius: 50%;
+  animation: pulse 2s infinite;
+}
+
+.btn-icon {
+  font-size: 1.5rem;
+  transition: transform 0.3s;
+}
+
+.cta-pulse:hover .btn-icon {
+  transform: translateX(5px);
+}
+
+/* Contrôle son */
+.sound-control {
+  position: fixed;
+  bottom: 1.5rem;
+  left: 1.5rem;
+}
+
+#sound-toggle {
+  background: rgba(255, 255, 255, 0.15);
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  backdrop-filter: blur(5px);
+  transition: all 0.3s;
+}
+
+#sound-toggle:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-text {
+    font-size: 1.1rem;
+    padding: 0 1rem;
+  }
+  
+  .cta-pulse {
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+  }
+  
+  .logo img {
+    width: 100px;
+  }
+}

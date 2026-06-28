@@ -1,0 +1,164 @@
+[
+    {
+        "id": 1,
+        "titre": "Sans titre",
+        "description": "",
+        "article_url": "https://www.visitmorocco.com/fr/decouvrir-le-maroc/le-maroc-travers-les-dynasties",
+        "image_url": "",
+        "image_local": "",
+        "categorie": "Artisanat traditionnel"
+    },
+    {
+        "id": 2,
+        "titre": "Sans titre",
+        "description": "",
+        "article_url": "https://www.visitmorocco.com/fr/decouvrir-le-maroc/le-maroc-travers-les-dynasties",
+        "image_url": "",
+        "image_local": "",
+        "categorie": "Artisanat traditionnel"
+    },
+    {
+        "id": 3,
+        "titre": "Sans titre",
+        "description": "",
+        "article_url": "https://www.visitmorocco.com/fr/decouvrir-le-maroc/gastronomie",
+        "image_url": "",
+        "image_local": "",
+        "categorie": "Artisanat traditionnel"
+    },
+    {
+        "id": 4,
+        "titre": "Sans titre",
+        "description": "",
+        "article_url": "https://www.visitmorocco.com/fr/decouvrir-le-maroc/enseignes-internationales",
+        "image_url": "",
+        "image_local": "",
+        "categorie": "Artisanat traditionnel"
+    },
+    {
+        "id": 5,
+        "titre": "Sans titre",
+        "description": "",
+        "article_url": "https://www.visitmorocco.com/fr/voyage/chefchaouen",
+        "image_url": "",
+        "image_local": "",
+        "categorie": "Artisanat traditionnel"
+    },
+    {
+        "id": 6,
+        "titre": "Sans titre",
+        "description": "",
+        "article_url": "https://www.visitmorocco.com/fr/voyage/chefchaouen",
+        "image_url": "",
+        "image_local": "",
+        "categorie": "Artisanat traditionnel"
+    },
+    {
+        "id": 7,
+        "titre": "Sans titre",
+        "description": "",
+        "article_url": "https://www.visitmorocco.com/fr/voyage/tetouan",
+        "image_url": "",
+        "image_local": "",
+        "categorie": "Artisanat traditionnel"
+    },
+    {
+        "id": 8,
+        "titre": "Sans titre",
+        "description": "",
+        "article_url": "https://www.visitmorocco.com/fr/voyage/oujda-saidia",
+        "image_url": "",
+        "image_local": "",
+        "categorie": "Artisanat traditionnel"
+    },
+    {
+        "id": 9,
+        "titre": "Sans titre",
+        "description": "",
+        "article_url": "https://www.visitmorocco.com/fr/voyage/meknes",
+        "image_url": "",
+        "image_local": "",
+        "categorie": "Artisanat traditionnel"
+    },
+    {
+        "id": 10,
+        "titre": "Sans titre",
+        "description": "",
+        "article_url": "https://www.visitmorocco.com/fr/decouvrir-le-maroc/medinas",
+        "image_url": "",
+        "image_local": "",
+        "categorie": "Artisanat traditionnel"
+    },
+    {
+        "id": 11,
+        "titre": "Sans titre",
+        "description": "",
+        "article_url": "https://www.visitmorocco.com/fr/decouvrir-le-maroc/medinas",
+        "image_url": "",
+        "image_local": "",
+        "categorie": "Artisanat traditionnel"
+    },
+    {
+        "id": 12,
+        "titre": "Sans titre",
+        "description": "",
+        "article_url": "https://www.visitmorocco.com/fr/experiences/nature/destinations-vertes-et-montagnes",
+        "image_url": "",
+        "image_local": "",
+        "categorie": "Artisanat traditionnel"
+    },
+    {
+        "id": 13,
+        "titre": "Sans titre",
+        "description": "",
+        "article_url": "https://www.visitmorocco.com/fr/experiences/sport/autres-sports",
+        "image_url": "",
+        "image_local": "",
+        "categorie": "Artisanat traditionnel"
+    },
+    {
+        "id": 14,
+        "titre": "Sans titre",
+        "description": "",
+        "article_url": "https://www.visitmorocco.com/fr/idees-de-voyage/croisieres",
+        "image_url": "",
+        "image_local": "",
+        "categorie": "Artisanat traditionnel"
+    },
+    {
+        "id": 15,
+        "titre": "Sans titre",
+        "description": "",
+        "article_url": "https://www.visitmorocco.com/fr/informations-pratiques/comment-venir-au-maroc",
+        "image_url": "",
+        "image_local": "",
+        "categorie": "Artisanat traditionnel"
+    },
+    {
+        "id": 16,
+        "titre": "Sans titre",
+        "description": "",
+        "article_url": "https://www.visitmorocco.com/fr/informations-pratiques?id=modalclimats1247",
+        "image_url": "",
+        "image_local": "",
+        "categorie": "Artisanat traditionnel"
+    },
+    {
+        "id": 17,
+        "titre": "Sans titre",
+        "description": "",
+        "article_url": "https://www.visitmorocco.com/fr/blog-tourisme-au-maroc",
+        "image_url": "",
+        "image_local": "",
+        "categorie": "Artisanat traditionnel"
+    },
+    {
+        "id": 18,
+        "titre": "Le Maroc : une terre d'artisanat authentique et design !",
+        "description": "",
+        "article_url": "https://www.visitmorocco.com/fr/taxonomy/term/82",
+        "image_url": "https://www.visitmorocco.com/sites/default/files/les-tapis-marocains.jpg",
+        "image_local": "artisanat_images_Le Maroc : une terre d'artisanat authentique et de.jpg",
+        "categorie": "Artisanat traditionnel"
+    }
+]

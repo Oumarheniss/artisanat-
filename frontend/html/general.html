@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Catégories Générales - ArtMaroc</title>
+  <link rel="stylesheet" href="./css/general.css" />
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" as="style" />
+  <link rel="preload" href="video/general.webm"video" type="video/webm">
+  <body>
+  <!-- Vidéo en plein écran avec filtre lumineux -->
+  <div class="video-container">
+    <video autoplay muted loop playsinline id="background-video">
+      <source src="./video/general.mp4" type="video/webm">
+      <source src="./video/general.webm" type="video/mp4">
+    </video>
+    <div class="video-overlay"></div>
+  </div>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="histoire.html">Historique</a></li>
+        <li><a href="general.html">Catégorie générale</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+  <!-- Bouton de retour -->
+<div class="back-button-container">
+  <a href="categories.html" class="back-button">⟵ Retour </a>
+</div>
+
+  <div class="container">
+    <h1>Choisissez un art traditionnel</h1>
+    <div id="buttons-group" class="buttons-group">
+      <!-- Les boutons seront injectés ici dynamiquement -->
+      <p>Chargement des catégories...</p>
+    </div>
+  </div>
+
+  <!-- Inclusion du fichier JavaScript externe -->
+  <script src="java/general.js"></script>
+</body>
+</html>

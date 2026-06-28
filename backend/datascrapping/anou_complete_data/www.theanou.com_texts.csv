@@ -1,0 +1,225 @@
+﻿type,text,method
+p,Anou's Website is Changing! Is something not working as expected? Email us at hello@theanou.com,selenium
+p,EXPERIENCES,selenium
+h1,Buy Directly From Artisans!,selenium
+h1,No More Middlemen!,selenium
+button,SHOP THE MARKETPLACE!,selenium
+p,The Marketplace,selenium
+p,Buy directly from artisans all across Morocco,selenium
+p,Custom Orders,selenium
+p,Create something made just for you.,selenium
+p,Curated Favorites,selenium
+p,Search select favorites from thousands of artisan posted products.,selenium
+h2,Commitment to Sustainability & Transparency,selenium
+p,Morocco's only sustainable supply chains,selenium
+p,Anou's Theory of Change: Artisan Led,selenium
+h2,Recently Added Favorites,selenium
+p,Pile Knot Rug,selenium
+p,By Numedia Tabudrart,selenium
+p,Flat Weave Rug,selenium
+p,By Numedia Tabudrart,selenium
+p,Pile Knot Rug,selenium
+p,By Numedia Tabudrart,selenium
+p,WHAT THEY ARE SAYING,selenium
+p,"""The Anou Cooperative offers a fresh alternative to traditional cultural clichés – and a challenge to vested market interests.""",selenium
+p,— Franklin-Till,selenium
+p,The Cooperative,selenium
+p,Sustainability,selenium
+p,Retail Partnerships,selenium
+p,Hello@theanou.com,selenium
+p,Experiences,selenium
+p,Artisan Experiences,selenium
+p,Fez Workshops,selenium
+p,صانعة تقليدي(ة),selenium
+p,Your Preferences,selenium
+p,Your Saved Favorites,selenium
+p,Select Shipping/Currency,selenium
+option,Select Shipping/Currency,selenium
+option,United States,selenium
+option,Afghanistan,selenium
+option,Aland Islands,selenium
+option,American Samoa,selenium
+option,Bouvet Island,selenium
+option,Brunei Darussalam,selenium
+option,Burkina Faso,selenium
+option,Cayman Islands,selenium
+option,Christmas Island,selenium
+option,Cocos (Keeling) Islands,selenium
+option,Cook Islands,selenium
+option,Cote D'Ivoire,selenium
+option,Czech Republic,selenium
+option,Dominican Republic,selenium
+option,El Salvador,selenium
+option,Equatorial Guinea,selenium
+option,Faroe Islands,selenium
+option,French Guiana,selenium
+option,French Polynesia,selenium
+option,Guinea-Bissau,selenium
+option,"Iran, Islamic Republic of",selenium
+option,Isle of Man,selenium
+option,South Korea,selenium
+option,Liechtenstein,selenium
+option,Marshall Islands,selenium
+option,Netherlands,selenium
+option,New Zealand,selenium
+option,Philippines,selenium
+option,Puerto Rico,selenium
+option,Russian Federation,selenium
+option,Sao Tome and Principe,selenium
+option,Saudi Arabia,selenium
+option,Sierra Leone,selenium
+option,Sint Maarten,selenium
+option,Solomon Islands,selenium
+option,South Africa,selenium
+option,South Sudan,selenium
+option,Svalbard and Jan Mayen,selenium
+option,Switzerland,selenium
+option,Timor-Leste,selenium
+option,Trinidad and Tobago,selenium
+option,Turkmenistan,selenium
+option,United Arab Emirates,selenium
+option,United Kingdom,selenium
+p,©2023 The Anou Cooperative | Owned and Managed by Morocco's Artisan Community,selenium
+div,✉️ Need help? Contact us!,selenium
+p,Anou's Website is Changing! Is something not working as expected? Email us at hello@theanou.com,bs4
+p,EXPERIENCES,bs4
+p,You have no items in your cart.,bs4
+p,Add items to your cart to learn how to save money on shipping.,bs4
+p,Experiences,bs4
+p,The Marketplace,bs4
+p,Buy directly from artisans all across Morocco,bs4
+p,Custom Orders,bs4
+p,Create something made just for you.,bs4
+p,Curated Favorites,bs4
+p,Search select favorites from thousands of artisan posted products.,bs4
+p,Morocco's only sustainable supply chains,bs4
+p,Anou's Theory of Change: Artisan Led,bs4
+p,Pile Knot Rug,bs4
+p,By Numedia Tabudrart,bs4
+p,Flat Weave Rug,bs4
+p,By Numedia Tabudrart,bs4
+p,Pile Knot Rug,bs4
+p,By Numedia Tabudrart,bs4
+p,WHAT THEY ARE SAYING,bs4
+p,"""The Anou Cooperative offers a fresh 
+        alternative to traditional cultural clichés – and 
+        a challenge to vested market interests.""",bs4
+p,— Franklin-Till,bs4
+p,WHAT THEY ARE SAYING,bs4
+p,"""By building a language-free interface, Anou is helping impoverished 
+        artisans run their own businesses and upend the world of Fair Trade.""",bs4
+p,— Fast Company,bs4
+p,WHAT THEY ARE SAYING,bs4
+p,"""Anou helps rural artisans cut out middlemen. The Anou site addresses 
+        the technological hurdle of posting to the web  — but that’s just the first step in a 
+        much bigger process of becoming actual business owners.”",bs4
+p,WHAT THEY ARE SAYING,bs4
+p,"""The Anou connects Moroccan artisans directly with consumers for fair trade textiles and 
+        crafts. I've lusted after their rugs all year.""",bs4
+p,WHAT THEY ARE SAYING,bs4
+p,"""…because Anou allows you to interface directly with artisans, I was able to special order the specific rug I wanted. 
+        After I placed the order, I got periodic updates (with photos!) on its progress. I love our new rug!""",bs4
+p,The Cooperative,bs4
+p,Sustainability,bs4
+p,Retail Partnerships,bs4
+p,Hello@theanou.com,bs4
+p,Experiences,bs4
+p,Artisan Experiences,bs4
+p,Fez Workshops,bs4
+p,صانعة تقليدي(ة),bs4
+p,Your Preferences,bs4
+p,Your Saved Favorites,bs4
+p,Select Shipping/Currency,bs4
+p,©2023 The Anou Cooperative | Owned and Managed by Morocco's Artisan Community,bs4
+p,"Keep up with Anou artisans and join their adventures to transform Moroccan craft, sign up for our newsletter here:",bs4
+p,Got a question? Sent it here and an Anou artisan mentor will be in touch via email with an answer shortly. You will receive an automatic email notification once your message is submitted.,bs4
+h1,Buy Directly From Artisans!,bs4
+h1,No More Middlemen!,bs4
+h2,Commitment to Sustainability & Transparency,bs4
+h2,Recently Added Favorites,bs4
+h2,Contact us!,bs4
+h3,Stay Updated!,bs4
+div,Anou's Website is Changing! Is something not working as expected? Email us at hello@theanou.com,bs4
+div,SHOP ABOUT EXPERIENCES WORKSHOPS Your Cart You have no items in your cart. Add items to your cart to learn how to save money on shipping. ☰ 𐄂 My Cart ▴ Shop ▴ Experiences ▴ About ▴ Blog ▴,bs4
+div,EXPERIENCES,bs4
+div,Your Cart You have no items in your cart. Add items to your cart to learn how to save money on shipping.,bs4
+div,Your Cart You have no items in your cart. Add items to your cart to learn how to save money on shipping.,bs4
+div,Your Cart You have no items in your cart. Add items to your cart to learn how to save money on shipping.,bs4
+div,Your Cart You have no items in your cart. Add items to your cart to learn how to save money on shipping.,bs4
+div,You have no items in your cart.,bs4
+div,Add items to your cart to learn how to save money on shipping.,bs4
+div,My Cart ▴ Shop ▴ Experiences ▴ About ▴ Blog ▴,bs4
+div,My Cart ▴ Shop ▴ Experiences ▴ About ▴ Blog ▴,bs4
+div,My Cart ▴ Shop ▴ Experiences ▴ About ▴ Blog ▴,bs4
+div,Experiences ▴,bs4
+div,"Buy Directly From Artisans! No More Middlemen! SHOP THE MARKETPLACE! The Marketplace Buy directly from artisans all across Morocco Custom Orders Create something made just for you. Curated Favorites Search select favorites from thousands of artisan posted products. Commitment to Sustainability & Transparency Morocco's only sustainable supply chains Learn more Anou's Theory of Change: Artisan Led Learn more Recently Added Favorites Pile Knot Rug By Numedia Tabudrart Flat Weave Rug By Numedia Tabudrart Pile Knot Rug By Numedia Tabudrart WHAT THEY ARE SAYING ""The Anou Cooperative offers a fresh 
+        alternative to traditional cultural clichés – and 
+        a challenge to vested market interests."" — Franklin-Till « » WHAT THEY ARE SAYING ""By building a language-free interface, Anou is helping impoverished 
+        artisans run their own businesses and upend the world of Fair Trade."" — Fast Company « » WHAT THEY ARE SAYING ""Anou helps rural artisans cut out middlemen. The Anou site addresses 
+        the technological hurdle of posting to the web  — but that’s just the first step in a 
+        much bigger process of becoming actual business owners.” — NPR « » WHAT THEY ARE SAYING ""The Anou connects Moroccan artisans directly with consumers for fair trade textiles and 
+        crafts. I've lusted after their rugs all year."" — InStyle « » WHAT THEY ARE SAYING ""…because Anou allows you to interface directly with artisans, I was able to special order the specific rug I wanted. 
+        After I placed the order, I got periodic updates (with photos!) on its progress. I love our new rug!"" — NYMAG « »",bs4
+div,Buy Directly From Artisans! No More Middlemen! SHOP THE MARKETPLACE!,bs4
+div,Buy Directly From Artisans! No More Middlemen!,bs4
+div,Buy Directly From Artisans! No More Middlemen!,bs4
+div,Buy Directly From Artisans!,bs4
+div,No More Middlemen!,bs4
+div,SHOP THE MARKETPLACE!,bs4
+div,The Marketplace Buy directly from artisans all across Morocco Custom Orders Create something made just for you. Curated Favorites Search select favorites from thousands of artisan posted products.,bs4
+div,The Marketplace Buy directly from artisans all across Morocco,bs4
+div,Custom Orders Create something made just for you.,bs4
+div,Curated Favorites Search select favorites from thousands of artisan posted products.,bs4
+div,Commitment to Sustainability & Transparency Morocco's only sustainable supply chains Learn more Anou's Theory of Change: Artisan Led Learn more,bs4
+div,Commitment to Sustainability & Transparency,bs4
+div,Morocco's only sustainable supply chains Learn more,bs4
+div,Anou's Theory of Change: Artisan Led Learn more,bs4
+div,Recently Added Favorites,bs4
+div,Pile Knot Rug By Numedia Tabudrart Flat Weave Rug By Numedia Tabudrart Pile Knot Rug By Numedia Tabudrart,bs4
+div,Pile Knot Rug By Numedia Tabudrart,bs4
+div,Flat Weave Rug By Numedia Tabudrart,bs4
+div,Pile Knot Rug By Numedia Tabudrart,bs4
+div,"WHAT THEY ARE SAYING ""The Anou Cooperative offers a fresh 
+        alternative to traditional cultural clichés – and 
+        a challenge to vested market interests."" — Franklin-Till « » WHAT THEY ARE SAYING ""By building a language-free interface, Anou is helping impoverished 
+        artisans run their own businesses and upend the world of Fair Trade."" — Fast Company « » WHAT THEY ARE SAYING ""Anou helps rural artisans cut out middlemen. The Anou site addresses 
+        the technological hurdle of posting to the web  — but that’s just the first step in a 
+        much bigger process of becoming actual business owners.” — NPR « » WHAT THEY ARE SAYING ""The Anou connects Moroccan artisans directly with consumers for fair trade textiles and 
+        crafts. I've lusted after their rugs all year."" — InStyle « » WHAT THEY ARE SAYING ""…because Anou allows you to interface directly with artisans, I was able to special order the specific rug I wanted. 
+        After I placed the order, I got periodic updates (with photos!) on its progress. I love our new rug!"" — NYMAG « »",bs4
+div,"WHAT THEY ARE SAYING ""The Anou Cooperative offers a fresh 
+        alternative to traditional cultural clichés – and 
+        a challenge to vested market interests."" — Franklin-Till « » WHAT THEY ARE SAYING ""By building a language-free interface, Anou is helping impoverished 
+        artisans run their own businesses and upend the world of Fair Trade."" — Fast Company « » WHAT THEY ARE SAYING ""Anou helps rural artisans cut out middlemen. The Anou site addresses 
+        the technological hurdle of posting to the web  — but that’s just the first step in a 
+        much bigger process of becoming actual business owners.” — NPR « » WHAT THEY ARE SAYING ""The Anou connects Moroccan artisans directly with consumers for fair trade textiles and 
+        crafts. I've lusted after their rugs all year."" — InStyle « » WHAT THEY ARE SAYING ""…because Anou allows you to interface directly with artisans, I was able to special order the specific rug I wanted. 
+        After I placed the order, I got periodic updates (with photos!) on its progress. I love our new rug!"" — NYMAG « »",bs4
+div,"WHAT THEY ARE SAYING ""The Anou Cooperative offers a fresh 
+        alternative to traditional cultural clichés – and 
+        a challenge to vested market interests."" — Franklin-Till « »",bs4
+div,"WHAT THEY ARE SAYING ""By building a language-free interface, Anou is helping impoverished 
+        artisans run their own businesses and upend the world of Fair Trade."" — Fast Company « »",bs4
+div,"WHAT THEY ARE SAYING ""Anou helps rural artisans cut out middlemen. The Anou site addresses 
+        the technological hurdle of posting to the web  — but that’s just the first step in a 
+        much bigger process of becoming actual business owners.” — NPR « »",bs4
+div,"WHAT THEY ARE SAYING ""The Anou connects Moroccan artisans directly with consumers for fair trade textiles and 
+        crafts. I've lusted after their rugs all year."" — InStyle « »",bs4
+div,"WHAT THEY ARE SAYING ""…because Anou allows you to interface directly with artisans, I was able to special order the specific rug I wanted. 
+        After I placed the order, I got periodic updates (with photos!) on its progress. I love our new rug!"" — NYMAG « »",bs4
+div,"The Cooperative About Sustainability Retail Partnerships Jobs Donate Connect Newsletter Blog Instagram Facebook Hello@theanou.com Experiences Artisan Experiences Fez Store Fez Workshops صانعة تقليدي(ة) انضم إلينا Your Preferences Your Saved Favorites Select Shipping/Currency Select Shipping/Currency United States Afghanistan Aland Islands Albania Algeria American Samoa Andorra Angola Anguilla Antarctica Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Botswana Bouvet Island Brazil Brunei Darussalam Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Cape Verde Cayman Islands Chad Chile China Christmas Island Cocos (Keeling) Islands Colombia Comoros Congo Cook Islands Costa Rica Cote D'Ivoire Croatia Cuba Curacao Cyprus Czech Republic Denmark Djibouti Dominica Dominican Republic Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Ethiopia Faroe Islands Fiji Finland France French Guiana French Polynesia Gabon Gambia Georgia Germany Ghana Gibraltar Greece Greenland Grenada Guadeloupe Guam Guatemala Guernsey Guinea Guinea-Bissau Guyana Haiti Honduras Hong Kong Hungary Iceland India Indonesia Iran, Islamic Republic of Iraq Ireland Isle of Man Italy Jamaica Japan Jersey Jordan Kazakhstan Kenya Kiribati South Korea Kosovo Kuwait Kyrgyzstan Latvia Lebanon Lesotho Liberia Liechtenstein Lithuania Luxembourg Macao Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique Mauritania Mauritius Mayotte Mexico Monaco Mongolia Montenegro Montserrat Morocco Mozambique Myanmar Namibia Nauru Nepal Netherlands New Zealand Nicaragua Niger Nigeria Niue Norway Oman Pakistan Palau Panama Paraguay Peru Philippines Pitcairn Poland Portugal Puerto Rico Qatar Reunion Romania Russian Federation Samoa San Marino Sao Tome and Principe Saudi Arabia Senegal Serbia Seychelles Sierra Leone Singapore Sint Maarten Slovakia Slovenia Solomon Islands Somalia South Africa South Sudan Spain Sri Lanka Sudan Suriname Svalbard and Jan Mayen Swaziland Sweden Switzerland Tajikistan Thailand Timor-Leste Togo Tokelau Tonga Trinidad and Tobago Tunisia Turkey Turkmenistan Tuvalu Uganda Ukraine United Arab Emirates United Kingdom Uruguay Uzbekistan Vanuatu Venezuela ©2023 The Anou Cooperative | Owned and Managed by Morocco's Artisan Community × Stay Updated! Keep up with Anou artisans and join their adventures to transform Moroccan craft, sign up for our newsletter here: Subscribe!",bs4
+div,"The Cooperative About Sustainability Retail Partnerships Jobs Donate Connect Newsletter Blog Instagram Facebook Hello@theanou.com Experiences Artisan Experiences Fez Store Fez Workshops صانعة تقليدي(ة) انضم إلينا Your Preferences Your Saved Favorites Select Shipping/Currency Select Shipping/Currency United States Afghanistan Aland Islands Albania Algeria American Samoa Andorra Angola Anguilla Antarctica Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Botswana Bouvet Island Brazil Brunei Darussalam Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Cape Verde Cayman Islands Chad Chile China Christmas Island Cocos (Keeling) Islands Colombia Comoros Congo Cook Islands Costa Rica Cote D'Ivoire Croatia Cuba Curacao Cyprus Czech Republic Denmark Djibouti Dominica Dominican Republic Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Ethiopia Faroe Islands Fiji Finland France French Guiana French Polynesia Gabon Gambia Georgia Germany Ghana Gibraltar Greece Greenland Grenada Guadeloupe Guam Guatemala Guernsey Guinea Guinea-Bissau Guyana Haiti Honduras Hong Kong Hungary Iceland India Indonesia Iran, Islamic Republic of Iraq Ireland Isle of Man Italy Jamaica Japan Jersey Jordan Kazakhstan Kenya Kiribati South Korea Kosovo Kuwait Kyrgyzstan Latvia Lebanon Lesotho Liberia Liechtenstein Lithuania Luxembourg Macao Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique Mauritania Mauritius Mayotte Mexico Monaco Mongolia Montenegro Montserrat Morocco Mozambique Myanmar Namibia Nauru Nepal Netherlands New Zealand Nicaragua Niger Nigeria Niue Norway Oman Pakistan Palau Panama Paraguay Peru Philippines Pitcairn Poland Portugal Puerto Rico Qatar Reunion Romania Russian Federation Samoa San Marino Sao Tome and Principe Saudi Arabia Senegal Serbia Seychelles Sierra Leone Singapore Sint Maarten Slovakia Slovenia Solomon Islands Somalia South Africa South Sudan Spain Sri Lanka Sudan Suriname Svalbard and Jan Mayen Swaziland Sweden Switzerland Tajikistan Thailand Timor-Leste Togo Tokelau Tonga Trinidad and Tobago Tunisia Turkey Turkmenistan Tuvalu Uganda Ukraine United Arab Emirates United Kingdom Uruguay Uzbekistan Vanuatu Venezuela ©2023 The Anou Cooperative | Owned and Managed by Morocco's Artisan Community",bs4
+div,"The Cooperative About Sustainability Retail Partnerships Jobs Donate Connect Newsletter Blog Instagram Facebook Hello@theanou.com Experiences Artisan Experiences Fez Store Fez Workshops صانعة تقليدي(ة) انضم إلينا Your Preferences Your Saved Favorites Select Shipping/Currency Select Shipping/Currency United States Afghanistan Aland Islands Albania Algeria American Samoa Andorra Angola Anguilla Antarctica Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Botswana Bouvet Island Brazil Brunei Darussalam Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Cape Verde Cayman Islands Chad Chile China Christmas Island Cocos (Keeling) Islands Colombia Comoros Congo Cook Islands Costa Rica Cote D'Ivoire Croatia Cuba Curacao Cyprus Czech Republic Denmark Djibouti Dominica Dominican Republic Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Ethiopia Faroe Islands Fiji Finland France French Guiana French Polynesia Gabon Gambia Georgia Germany Ghana Gibraltar Greece Greenland Grenada Guadeloupe Guam Guatemala Guernsey Guinea Guinea-Bissau Guyana Haiti Honduras Hong Kong Hungary Iceland India Indonesia Iran, Islamic Republic of Iraq Ireland Isle of Man Italy Jamaica Japan Jersey Jordan Kazakhstan Kenya Kiribati South Korea Kosovo Kuwait Kyrgyzstan Latvia Lebanon Lesotho Liberia Liechtenstein Lithuania Luxembourg Macao Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique Mauritania Mauritius Mayotte Mexico Monaco Mongolia Montenegro Montserrat Morocco Mozambique Myanmar Namibia Nauru Nepal Netherlands New Zealand Nicaragua Niger Nigeria Niue Norway Oman Pakistan Palau Panama Paraguay Peru Philippines Pitcairn Poland Portugal Puerto Rico Qatar Reunion Romania Russian Federation Samoa San Marino Sao Tome and Principe Saudi Arabia Senegal Serbia Seychelles Sierra Leone Singapore Sint Maarten Slovakia Slovenia Solomon Islands Somalia South Africa South Sudan Spain Sri Lanka Sudan Suriname Svalbard and Jan Mayen Swaziland Sweden Switzerland Tajikistan Thailand Timor-Leste Togo Tokelau Tonga Trinidad and Tobago Tunisia Turkey Turkmenistan Tuvalu Uganda Ukraine United Arab Emirates United Kingdom Uruguay Uzbekistan Vanuatu Venezuela",bs4
+div,The Cooperative About Sustainability Retail Partnerships Jobs Donate,bs4
+div,Connect Newsletter Blog Instagram Facebook Hello@theanou.com,bs4
+div,Experiences Artisan Experiences Fez Store Fez Workshops,bs4
+div,صانعة تقليدي(ة) انضم إلينا,bs4
+div,"Your Preferences Your Saved Favorites Select Shipping/Currency Select Shipping/Currency United States Afghanistan Aland Islands Albania Algeria American Samoa Andorra Angola Anguilla Antarctica Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Botswana Bouvet Island Brazil Brunei Darussalam Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Cape Verde Cayman Islands Chad Chile China Christmas Island Cocos (Keeling) Islands Colombia Comoros Congo Cook Islands Costa Rica Cote D'Ivoire Croatia Cuba Curacao Cyprus Czech Republic Denmark Djibouti Dominica Dominican Republic Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Ethiopia Faroe Islands Fiji Finland France French Guiana French Polynesia Gabon Gambia Georgia Germany Ghana Gibraltar Greece Greenland Grenada Guadeloupe Guam Guatemala Guernsey Guinea Guinea-Bissau Guyana Haiti Honduras Hong Kong Hungary Iceland India Indonesia Iran, Islamic Republic of Iraq Ireland Isle of Man Italy Jamaica Japan Jersey Jordan Kazakhstan Kenya Kiribati South Korea Kosovo Kuwait Kyrgyzstan Latvia Lebanon Lesotho Liberia Liechtenstein Lithuania Luxembourg Macao Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique Mauritania Mauritius Mayotte Mexico Monaco Mongolia Montenegro Montserrat Morocco Mozambique Myanmar Namibia Nauru Nepal Netherlands New Zealand Nicaragua Niger Nigeria Niue Norway Oman Pakistan Palau Panama Paraguay Peru Philippines Pitcairn Poland Portugal Puerto Rico Qatar Reunion Romania Russian Federation Samoa San Marino Sao Tome and Principe Saudi Arabia Senegal Serbia Seychelles Sierra Leone Singapore Sint Maarten Slovakia Slovenia Solomon Islands Somalia South Africa South Sudan Spain Sri Lanka Sudan Suriname Svalbard and Jan Mayen Swaziland Sweden Switzerland Tajikistan Thailand Timor-Leste Togo Tokelau Tonga Trinidad and Tobago Tunisia Turkey Turkmenistan Tuvalu Uganda Ukraine United Arab Emirates United Kingdom Uruguay Uzbekistan Vanuatu Venezuela",bs4
+div,©2023 The Anou Cooperative | Owned and Managed by Morocco's Artisan Community,bs4
+div,"× Stay Updated! Keep up with Anou artisans and join their adventures to transform Moroccan craft, sign up for our newsletter here: Subscribe!",bs4
+div,"× Stay Updated! Keep up with Anou artisans and join their adventures to transform Moroccan craft, sign up for our newsletter here: Subscribe!",bs4
+div,"Stay Updated! Keep up with Anou artisans and join their adventures to transform Moroccan craft, sign up for our newsletter here: Subscribe!",bs4
+div,✉️ Need help? Contact us!,bs4
+div,Contact us! Got a question? Sent it here and an Anou artisan mentor will be in touch via email with an answer shortly. You will receive an automatic email notification once your message is submitted. Name* Email* Message* SEND,bs4
+div,Contact us! Got a question? Sent it here and an Anou artisan mentor will be in touch via email with an answer shortly. You will receive an automatic email notification once your message is submitted.,bs4
+div,Name* Email* Message* SEND,bs4

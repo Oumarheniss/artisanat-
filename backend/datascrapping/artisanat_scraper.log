@@ -1,0 +1,12 @@
+2025-05-28 00:30:01,835 [INFO] === Début du scraping ===
+2025-05-28 00:30:04,150 [INFO] Navigation vers la page cible...
+2025-05-28 00:30:18,779 [WARNING] Popup cookies non trouvée: Page.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("button:has-text('Accepter')").filter(visible=True)
+
+2025-05-28 00:30:48,801 [ERROR] Erreur lors du scraping: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.content") to be visible
+    63 × locator resolved to 21 elements. Proceeding with the first one: <div class="content">…</div>
+
+2025-05-28 00:30:49,255 [ERROR] Échec de la récupération du contenu

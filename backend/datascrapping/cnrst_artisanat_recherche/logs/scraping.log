@@ -1,0 +1,37 @@
+2025-05-25 01:46:04,052 - INFO - Initialisation du scraper CNRST
+2025-05-25 01:46:04,052 - INFO - Début de la collecte des données
+2025-05-25 01:46:04,052 - INFO - Recherche CNRST: artisanat marocain
+2025-05-25 01:46:04,422 - WARNING - Tentative 1 échouée pour https://www.cnrst.ma/recherche - Attente 1.6s - Erreur: 404 Client Error: Article non trouvÃ© for url: https://www.cnrst.ma/fr/recherche?s=artisanat+marocain
+2025-05-25 01:46:06,239 - WARNING - Tentative 2 échouée pour https://www.cnrst.ma/recherche - Attente 2.8s - Erreur: 404 Client Error: Article non trouvÃ© for url: https://www.cnrst.ma/fr/recherche?s=artisanat+marocain
+2025-05-25 01:46:09,252 - WARNING - Tentative 3 échouée pour https://www.cnrst.ma/recherche - Attente 4.9s - Erreur: 404 Client Error: Article non trouvÃ© for url: https://www.cnrst.ma/fr/recherche?s=artisanat+marocain
+2025-05-25 01:46:14,150 - ERROR - Échec après 3 tentatives pour https://www.cnrst.ma/recherche
+2025-05-25 01:46:14,162 - INFO - Recherche CNRST: métiers traditionnels Maroc
+2025-05-25 01:46:14,425 - WARNING - Tentative 1 échouée pour https://www.cnrst.ma/recherche - Attente 1.2s - Erreur: 404 Client Error: Article non trouvÃ© for url: https://www.cnrst.ma/fr/recherche?s=m%C3%A9tiers+traditionnels+Maroc
+2025-05-25 01:46:15,897 - WARNING - Tentative 2 échouée pour https://www.cnrst.ma/recherche - Attente 2.1s - Erreur: 404 Client Error: Article non trouvÃ© for url: https://www.cnrst.ma/fr/recherche?s=m%C3%A9tiers+traditionnels+Maroc
+2025-05-25 01:46:18,303 - WARNING - Tentative 3 échouée pour https://www.cnrst.ma/recherche - Attente 4.8s - Erreur: 404 Client Error: Article non trouvÃ© for url: https://www.cnrst.ma/fr/recherche?s=m%C3%A9tiers+traditionnels+Maroc
+2025-05-25 01:46:23,074 - ERROR - Échec après 3 tentatives pour https://www.cnrst.ma/recherche
+2025-05-25 01:46:23,076 - INFO - Recherche CNRST: patrimoine artisanal marocain
+2025-05-25 01:46:23,353 - WARNING - Tentative 1 échouée pour https://www.cnrst.ma/recherche - Attente 1.3s - Erreur: 404 Client Error: Article non trouvÃ© for url: https://www.cnrst.ma/fr/recherche?s=patrimoine+artisanal+marocain
+2025-05-25 01:46:24,965 - WARNING - Tentative 2 échouée pour https://www.cnrst.ma/recherche - Attente 2.8s - Erreur: 404 Client Error: Article non trouvÃ© for url: https://www.cnrst.ma/fr/recherche?s=patrimoine+artisanal+marocain
+2025-05-25 01:46:27,996 - WARNING - Tentative 3 échouée pour https://www.cnrst.ma/recherche - Attente 4.2s - Erreur: 404 Client Error: Article non trouvÃ© for url: https://www.cnrst.ma/fr/recherche?s=patrimoine+artisanal+marocain
+2025-05-25 01:46:32,225 - ERROR - Échec après 3 tentatives pour https://www.cnrst.ma/recherche
+2025-05-25 01:46:32,226 - INFO - Recherche CNRST: savoir-faire artisanaux Maroc
+2025-05-25 01:46:32,502 - WARNING - Tentative 1 échouée pour https://www.cnrst.ma/recherche - Attente 1.2s - Erreur: 404 Client Error: Article non trouvÃ© for url: https://www.cnrst.ma/fr/recherche?s=savoir-faire+artisanaux+Maroc
+2025-05-25 01:46:33,933 - WARNING - Tentative 2 échouée pour https://www.cnrst.ma/recherche - Attente 2.5s - Erreur: 404 Client Error: Article non trouvÃ© for url: https://www.cnrst.ma/fr/recherche?s=savoir-faire+artisanaux+Maroc
+2025-05-25 01:46:36,708 - WARNING - Tentative 3 échouée pour https://www.cnrst.ma/recherche - Attente 4.3s - Erreur: 404 Client Error: Article non trouvÃ© for url: https://www.cnrst.ma/fr/recherche?s=savoir-faire+artisanaux+Maroc
+2025-05-25 01:46:41,034 - ERROR - Échec après 3 tentatives pour https://www.cnrst.ma/recherche
+2025-05-25 01:46:41,035 - INFO - Recherche Scholar: artisanat marocain
+2025-05-25 01:46:41,035 - INFO - Getting https://scholar.google.com/scholar?hl=en&q=artisanat%20marocain%20site%3Acnrst.ma%20OR%20site%3Aac.ma&as_vis=0&as_sdt=0,33
+2025-05-25 01:46:43,512 - INFO - HTTP Request: GET https://scholar.google.com/scholar?hl=en&q=artisanat%20marocain%20site%3Acnrst.ma%20OR%20site%3Aac.ma&as_vis=0&as_sdt=0,33 "HTTP/1.1 200 OK"
+2025-05-25 01:46:48,672 - INFO - Recherche Scholar: métiers traditionnels Maroc
+2025-05-25 01:46:48,672 - INFO - Getting https://scholar.google.com/scholar?hl=en&q=m%C3%A9tiers%20traditionnels%20Maroc%20site%3Acnrst.ma%20OR%20site%3Aac.ma&as_vis=0&as_sdt=0,33
+2025-05-25 01:46:50,859 - INFO - HTTP Request: GET https://scholar.google.com/scholar?hl=en&q=m%C3%A9tiers%20traditionnels%20Maroc%20site%3Acnrst.ma%20OR%20site%3Aac.ma&as_vis=0&as_sdt=0,33 "HTTP/1.1 200 OK"
+2025-05-25 01:46:56,014 - INFO - Recherche Scholar: patrimoine artisanal marocain
+2025-05-25 01:46:56,014 - INFO - Getting https://scholar.google.com/scholar?hl=en&q=patrimoine%20artisanal%20marocain%20site%3Acnrst.ma%20OR%20site%3Aac.ma&as_vis=0&as_sdt=0,33
+2025-05-25 01:46:58,112 - INFO - HTTP Request: GET https://scholar.google.com/scholar?hl=en&q=patrimoine%20artisanal%20marocain%20site%3Acnrst.ma%20OR%20site%3Aac.ma&as_vis=0&as_sdt=0,33 "HTTP/1.1 200 OK"
+2025-05-25 01:47:03,244 - INFO - Recherche Scholar: savoir-faire artisanaux Maroc
+2025-05-25 01:47:03,245 - INFO - Getting https://scholar.google.com/scholar?hl=en&q=savoir-faire%20artisanaux%20Maroc%20site%3Acnrst.ma%20OR%20site%3Aac.ma&as_vis=0&as_sdt=0,33
+2025-05-25 01:47:05,637 - INFO - HTTP Request: GET https://scholar.google.com/scholar?hl=en&q=savoir-faire%20artisanaux%20Maroc%20site%3Acnrst.ma%20OR%20site%3Aac.ma&as_vis=0&as_sdt=0,33 "HTTP/1.1 200 OK"
+2025-05-25 01:47:10,787 - INFO - Aucune donnée à sauvegarder pour cnrst_publications
+2025-05-25 01:47:10,796 - INFO - Données sauvegardées : cnrst_artisanat_recherche\metadata\google_scholar_results.json et cnrst_artisanat_recherche\google_scholar_results.csv
+2025-05-25 01:47:10,798 - INFO - Collecte terminée. Rapport: cnrst_artisanat_recherche\rapports\rapport.json

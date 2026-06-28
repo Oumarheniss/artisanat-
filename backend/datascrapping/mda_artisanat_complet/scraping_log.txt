@@ -1,0 +1,38 @@
+Début du scraping MDA - 2025-05-25T00:58:26.454029
+
+2025-05-25T00:58:26.454029 - 🚀 Lancement du scraping complet du MDA
+2025-05-25T00:58:26.455029 - 🔍 Début du scraping: arts_de_terre
+2025-05-25T00:58:28.109389 - ✅ arts_de_terre: 0 sections trouvées
+2025-05-25T00:58:32.815127 - 🔍 Début du scraping: arts_de_cuir
+2025-05-25T00:58:34.399672 - ✅ arts_de_cuir: 0 sections trouvées
+2025-05-25T00:58:37.987187 - 🔍 Début du scraping: arts_du_bois
+2025-05-25T00:58:39.549607 - ✅ arts_du_bois: 0 sections trouvées
+2025-05-25T00:58:42.140509 - 🔍 Début du scraping: arts_textiles
+2025-05-25T00:58:44.200761 - ✅ arts_textiles: 0 sections trouvées
+2025-05-25T00:58:47.546067 - 🔍 Début du scraping: arts_du_metal
+2025-05-25T00:58:49.336228 - ✅ arts_du_metal: 0 sections trouvées
+2025-05-25T00:58:53.336059 - 🔍 Début du scraping: arts_bijouterie
+2025-05-25T00:58:54.991065 - ✅ arts_bijouterie: 0 sections trouvées
+2025-05-25T00:58:59.138593 - 🔍 Début du scraping: arts_bien_etre
+2025-05-25T00:59:00.862261 - ✅ arts_bien_etre: 0 sections trouvées
+2025-05-25T00:59:03.957318 - 🔍 Début du scraping: arts_vannerie
+2025-05-25T00:59:05.698409 - ✅ arts_vannerie: 0 sections trouvées
+2025-05-25T00:59:09.815681 - 🔍 Début du scraping: autres_arts
+2025-05-25T00:59:11.373024 - ✅ autres_arts: 0 sections trouvées
+2025-05-25T00:59:15.686260 - 🔍 Début du scraping: publications_statistiques
+2025-05-25T00:59:17.346751 - ✅ publications_statistiques: 28 sections trouvées
+2025-05-25T00:59:20.382591 - 🔍 Début du scraping: infrastructures
+2025-05-25T00:59:21.765354 - ❌ Erreur sur https://mda.gov.ma/fr/art-de-vivre/infrastructures/: 404 Client Error: Not Found for url: https://mda.gov.ma/fr/art-de-vivre/infrastructures/
+2025-05-25T00:59:23.802656 - 🔍 Début du scraping: programmes_preservation
+2025-05-25T00:59:25.300935 - ❌ Erreur sur https://mda.gov.ma/fr/art-de-vivre/preservation-des-metiers/: 404 Client Error: Not Found for url: https://mda.gov.ma/fr/art-de-vivre/preservation-des-metiers/
+2025-05-25T00:59:28.426171 - 🔍 Début du scraping: qualite_innovation
+2025-05-25T00:59:30.072397 - ❌ Erreur sur https://mda.gov.ma/fr/art-de-vivre/qualite-et-innovation/: 404 Client Error: Not Found for url: https://mda.gov.ma/fr/art-de-vivre/qualite-et-innovation/
+2025-05-25T00:59:33.489639 - 🔍 Début du scraping: appui_production
+2025-05-25T00:59:35.323716 - ❌ Erreur sur https://mda.gov.ma/fr/art-de-vivre/appui-a-la-production/: 404 Client Error: Not Found for url: https://mda.gov.ma/fr/art-de-vivre/appui-a-la-production/
+2025-05-25T00:59:39.707610 - 🔍 Début du scraping: formation_metiers
+2025-05-25T00:59:41.572328 - ❌ Erreur sur https://mda.gov.ma/fr/programmes-et-services-mda/formation-metiers/: 404 Client Error: Not Found for url: https://mda.gov.ma/fr/programmes-et-services-mda/formation-metiers/
+2025-05-25T00:59:46.160780 - 🔍 Début du scraping: promotion_commercialisation
+2025-05-25T00:59:47.764929 - ❌ Erreur sur https://mda.gov.ma/fr/programmes-et-services-mda/promotion-et-commercialisation/: 404 Client Error: Not Found for url: https://mda.gov.ma/fr/programmes-et-services-mda/promotion-et-commercialisation/
+2025-05-25T00:59:51.064845 - 
+✅ Scraping terminé avec succès!
+2025-05-25T00:59:51.064845 - 📁 Données sauvegardées dans: C:\Users\GHNIS\Documents\pfadata\backend\datascrapping\mda_artisanat_complet

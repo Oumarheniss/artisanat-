@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr-MA" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Découvrez l'histoire riche de l'artisanat marocain à travers les âges : Antiquité, période islamique et époque moderne." />
+  <title>Histoire de l'artisanat traditionnel au Maroc | ArtMaroc.ce</title>
+
+  <!-- Préchargements -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" as="style" />
+  <link rel="preload" href="video/histoire.webm" as="video" type="video/webm">
+  
+  <!-- Polices -->
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/histoire.css" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+
+</head>
+
+<body>
+  <!-- Header unifié -->
+  <header class="main-header">
+    <div class="container">
+      <div class="logo">
+        <img src="images/logo.png" alt="Logo ArtMaroc.ce - Retour à l'accueil" width="120" />
+      </div>
+      
+      <nav class="navbar" aria-label="Navigation principale">
+        <ul>
+          <li><a href="index.html" class="nav-link">Accueil</a></li>
+          <li><a href="histoire.html" class="nav-link" aria-current="page">Historique</a></li>
+          <li><a href="categories.html" class="nav-link">Catégories</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Vidéo en fond avec améliorations -->
+  <div class="video-container">
+    <video autoplay muted loop playsinline id="background-video" aria-hidden="true">
+      <source src="video/histoire.webm" type="video/webm" />
+      <source src="video/histoire.mp4" type="video/mp4" />
+    </video>
+    <div class="video-fallback">
+      <img src="images/fallback.jpg" alt="Motifs traditionnels marocains" loading="lazy" />
+    </div>
+    <div class="overlay"></div>
+  </div>
+
+  <!-- Contenu principal -->
+  <main class="timeline-container">
+    <h1>L'histoire de l'artisanat traditionnel marocain</h1>
+    
+    <div class="timeline-nav" role="tablist" aria-label="Périodes historiques">
+      <button class="period-btn active" role="tab" aria-selected="true" aria-controls="antiquite-tab">Antiquité</button>
+      <button class="period-btn" role="tab" aria-selected="false" aria-controls="islamique-tab">Période islamique</button>
+      <button class="period-btn" role="tab" aria-selected="false" aria-controls="moderne-tab">Époque moderne</button>
+    </div>
+
+    <div class="timeline-content">
+      <section id="antiquite-tab" role="tabpanel" class="content active">
+        <h2>L'artisanat dans l'Antiquité</h2>
+        <p>Durant l’Antiquité, le Maroc était un carrefour de cultures où les savoir-faire artisanaux ont prospéré.</p>
+        <ul>
+          <li><a class="sub-btn" href="tapis.html">La fabrication de tissus et tapis</a></li>
+          <li><a class="sub-btn" href="zelige.html">Les poteries et verrerie</a></li>
+          <li><a class="sub-btn" href="bj.html">Les bijoux et métaux précieux</a></li>
+        </ul>
+      </section>
+
+      <section id="islamique-tab" role="tabpanel" class="content" hidden>
+        <h2>L'âge d'or islamique</h2>
+        <p>Avec l’arrivée de l’islam, l’artisanat marocain s’enrichit de nouvelles formes d’art, d’architecture et de calligraphie.</p>
+        <ul>
+          <li><a class="sub-btn" href="is.html">L'architecture islamique et zellige</a></li>
+          <li><a class="sub-btn" href="arc.html">Les arts calligraphiques</a></li>
+          <li><a class="sub-btn" href="tv.html">Les techniques de tissage avancées</a></li>
+        </ul>
+      </section>
+
+      <section id="moderne-tab" role="tabpanel" class="content" hidden>
+        <h2>Période contemporaine</h2>
+        <p>À l’époque moderne, les artisans marocains ont su préserver l’authenticité tout en modernisant les procédés.</p>
+        <ul>
+          <li><a class="sub-btn" href="modernisation-techniques.html">Modernisation des techniques</a></li>
+          <li><a class="sub-btn" href="valorisation-patrimoine.html">Valorisation du patrimoine</a></li>
+          <li><a class="sub-btn" href="reconnaissance-internationale.html">Reconnaissance internationale</a></li>
+        </ul>
+      </section>
+    </div>
+  </main>
+
+  <script src="java/histoire.js" defer></script>
+  <noscript>
+    <style>
+      .video-fallback { display: block !important; }
+      #background-video { display: none !important; }
+      .content { display: block !important; }
+    </style>
+  </noscript>
+</body>
+</html>

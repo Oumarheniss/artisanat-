@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="fr-MA" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Découvrez la splendeur de l'architecture islamique et l'art du zellige marocain, un patrimoine culturel exceptionnel." />
+  <title>Architecture Islamique & Zellige | ArtMaroc.ce</title>
+
+  <!-- Polices -->
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=El+Messiri:wght@500;600&display=swap" rel="stylesheet" />
+  <style>
+    /* ===== VARIABLES & RESET ===== */
+    :root {
+      --primary: #f8c471;   /* Couleur dorée */
+      --secondary: #d35400; /* Terre cuite */
+      --islamic-blue: #1a5f7a; /* Bleu islamique */
+      --zellige-green: #2a7f62; /* Vert zellige */
+      --dark: #0a0500;     /* Fond sombre */
+      --light: #ffeaa7;    /* Texte clair */
+      --text: #fff;        /* Texte blanc */
+      --header-h: 70px;    /* Hauteur header */
+      --section-padding: 4rem 0;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* ===== STRUCTURE DE BASE ===== */
+    body, html {
+      height: 100%;
+      font-family: 'Amiri', serif;
+      color: var(--text);
+      background: var(--dark);
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+      line-height: 1.6;
+    }
+
+    /* ===== HEADER ===== */
+    .main-header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: var(--header-h);
+      background: rgba(17, 17, 17, 0.98);
+      backdrop-filter: blur(8px);
+      box-shadow: 0 2px 20px rgba(26, 95, 122, 0.1);
+      z-index: 100;
+      transition: all 0.3s ease;
+      border-bottom: 1px solid rgba(248, 196, 113, 0.1);
+    }
+
+    .main-header.scrolled {
+      height: calc(var(--header-h) - 10px);
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 100%;
+    }
+
+    .logo img {
+      transition: transform 0.3s ease;
+    }
+
+    .logo:hover img {
+      transform: scale(1.05);
+    }
+
+    .navbar ul {
+      list-style: none;
+      display: flex;
+      gap: 2.5rem;
+    }
+
+    .navbar ul li a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.2rem;
+      padding: 0.5rem;
+      position: relative;
+      transition: all 0.3s ease;
+    }
+
+    .navbar ul li a::after {
+      content: '';
+      position: absolute;
+      bottom: -3px;
+      right: 0;
+      width: 0;
+      height: 2px;
+      background: var(--zellige-green);
+      transition: width 0.3s ease;
+    }
+
+    .navbar ul li a:hover {
+      color: var(--light);
+    }
+
+    .navbar ul li a:hover::after {
+      width: 100%;
+      left: 0;
+    }
+
+    /* ===== MAIN CONTENT ===== */
+    .content-container {
+      padding-top: calc(var(--header-h) + 2rem);
+      position: relative;
+      z-index: 1;
+    }
+
+    .article-content {
+      max-width: 1100px;
+      margin: 2rem auto;
+      padding: 3rem;
+      background: rgba(0, 0, 0, 0.85);
+      backdrop-filter: blur(3px);
+      border-radius: 15px;
+      border: 1px solid rgba(42, 127, 98, 0.2);
+      box-shadow: 0 0 40px rgba(26, 95, 122, 0.2);
+    }
+
+    .article-header h1 {
+      text-align: center;
+      margin-bottom: 1.5rem;
+      font-size: 3.2rem;
+      font-family: 'El Messiri', sans-serif;
+      color: var(--primary);
+      text-shadow: 0 0 15px rgba(248, 196, 113, 0.5);
+      position: relative;
+    }
+
+    .article-header h1::after {
+      content: '';
+      position: absolute;
+      bottom: -15px;
+      left: 35%;
+      width: 30%;
+      height: 3px;
+      background: linear-gradient(to right, transparent, var(--zellige-green), var(--islamic-blue), transparent);
+    }
+
+    .intro-text {
+      font-size: 1.3rem;
+      text-align: center;
+      margin-bottom: 3rem;
+      color: var(--light);
+      line-height: 1.9;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* ===== SECTIONS STYLING ===== */
+    .section-overview {
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+      margin-bottom: 4rem;
+    }
+
+    .featured-image {
+      width: 100%;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+      position: relative;
+    }
+
+    .featured-image::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to bottom, rgba(10,5,0,0.1), rgba(10,5,0,0.6));
+      z-index: 1;
+    }
+
+    .featured-image img {
+      width: 100%;
+      height: 500px;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.8s ease;
+    }
+
+    .featured-image:hover img {
+      transform: scale(1.03);
+    }
+
+    .featured-image figcaption {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding: 2rem;
+      color: var(--light);
+      z-index: 2;
+      font-size: 1.2rem;
+      text-align: center;
+      text-shadow: 0 0 10px rgba(0,0,0,0.7);
+    }
+
+    .overview-text {
+      font-size: 1.2rem;
+      line-height: 1.9;
+      text-align: justify;
+    }
+
+    /* Style spécifique pour les sections architecture */
+    .architecture-section {
+      margin: 4rem 0;
+    }
+
+    .architecture-section h2 {
+      text-align: center;
+      margin-bottom: 3rem;
+      font-size: 2.5rem;
+      font-family: 'El Messiri', sans-serif;
+      color: var(--primary);
+      position: relative;
+    }
+
+    .architecture-section h2::after {
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      left: 40%;
+      width: 20%;
+      height: 2px;
+      background: linear-gradient(to right, var(--islamic-blue), var(--zellige-green));
+    }
+
+    .elements-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 3rem;
+      margin-top: 3rem;
+    }
+
+    .element-card {
+      background: rgba(20, 20, 20, 0.7);
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+      transition: all 0.5s ease;
+      border: 1px solid rgba(42, 127, 98, 0.1);
+    }
+
+    .element-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 15px 30px rgba(26, 95, 122, 0.3);
+      border-color: rgba(42, 127, 98, 0.3);
+    }
+
+    .element-image {
+      width: 100%;
+      height: 250px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .element-image::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to bottom, transparent 60%, rgba(10,5,0,0.8));
+    }
+
+    .element-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.8s ease;
+    }
+
+    .element-card:hover .element-image img {
+      transform: scale(1.1);
+    }
+
+    .element-content {
+      padding: 2rem;
+    }
+
+    .element-content h3 {
+      color: var(--primary);
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+      font-family: 'El Messiri', sans-serif;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .element-content h3::before {
+      content: '✧';
+      color: var(--zellige-green);
+    }
+
+    /* Section Zellige */
+    .zellige-section {
+      background: rgba(26, 95, 122, 0.05);
+      padding: 3rem;
+      border-radius: 15px;
+      margin: 4rem 0;
+      border: 1px solid rgba(42, 127, 98, 0.2);
+    }
+
+    .zellige-process {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      margin-top: 3rem;
+    }
+
+    .process-step {
+      text-align: center;
+      padding: 1.5rem;
+      background: rgba(42, 127, 98, 0.1);
+      border-radius: 8px;
+      transition: all 0.4s ease;
+    }
+
+    .process-step:hover {
+      background: rgba(42, 127, 98, 0.2);
+      transform: translateY(-5px);
+    }
+
+    .process-step .step-icon {
+      font-size: 2.5rem;
+      color: var(--zellige-green);
+      margin-bottom: 1rem;
+    }
+
+    .process-step h4 {
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+      font-family: 'El Messiri', sans-serif;
+    }
+
+    /* Galerie Motifs */
+    .gallery-section {
+      margin: 5rem 0;
+    }
+
+    .gallery-section h2 {
+      text-align: center;
+      margin-bottom: 3rem;
+      font-size: 2.5rem;
+      font-family: 'El Messiri', sans-serif;
+      color: var(--primary);
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 3rem;
+    }
+
+    .gallery-item {
+      position: relative;
+      border-radius: 5px;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+      aspect-ratio: 1/1;
+      transition: all 0.5s ease;
+    }
+
+    .gallery-item:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 25px rgba(26, 95, 122, 0.4);
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.8s ease;
+    }
+
+    .gallery-item:hover img {
+      transform: scale(1.1);
+    }
+
+    .gallery-caption {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding: 1rem;
+      background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+      color: white;
+      transform: translateY(100%);
+      transition: transform 0.5s ease;
+    }
+
+    .gallery-item:hover .gallery-caption {
+      transform: translateY(0);
+    }
+
+    /* ===== CONCLUSION ===== */
+    .conclusion {
+      margin: 5rem 0 3rem;
+      padding: 3rem;
+      background: rgba(26, 95, 122, 0.1);
+      border-radius: 10px;
+      border-left: 4px solid var(--zellige-green);
+      position: relative;
+    }
+
+    .conclusion::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url('images/pattern.png');
+      opacity: 0.03;
+      z-index: -1;
+    }
+
+    .conclusion h2 {
+      color: var(--primary);
+      margin-bottom: 1.5rem;
+      font-size: 2rem;
+      font-family: 'El Messiri', sans-serif;
+      position: relative;
+      display: inline-block;
+    }
+
+    .conclusion h2::after {
+      content: '';
+      position: absolute;
+      bottom: -5px;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      background: linear-gradient(to right, var(--zellige-green), transparent);
+    }
+
+    /* ===== BUTTONS ===== */
+    .btn-return {
+      display: inline-block;
+      padding: 1rem 2.5rem;
+      margin-top: 2rem;
+      background: transparent;
+      border: 1px solid var(--zellige-green);
+      border-radius: 5px;
+      color: var(--light);
+      font-weight: bold;
+      text-decoration: none;
+      transition: all 0.5s ease;
+      position: relative;
+      overflow: hidden;
+      z-index: 1;
+    }
+
+    .btn-return::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 0;
+      height: 100%;
+      background: linear-gradient(to right, var(--zellige-green), var(--islamic-blue));
+      transition: width 0.5s ease;
+      z-index: -1;
+    }
+
+    .btn-return:hover {
+      color: var(--dark);
+      transform: translateY(-3px);
+      box-shadow: 0 5px 20px rgba(42, 127, 98, 0.4);
+    }
+
+    .btn-return:hover::before {
+      width: 100%;
+      left: 0;
+    }
+
+    /* ===== FOOTER ===== */
+    .main-footer {
+      background: rgba(10, 5, 0, 0.95);
+      padding: 3rem 0;
+      text-align: center;
+      border-top: 1px solid rgba(42, 127, 98, 0.2);
+    }
+
+    .main-footer p {
+      margin-bottom: 1.5rem;
+      color: var(--primary);
+    }
+
+    .main-footer nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+    }
+
+    .main-footer nav ul li a {
+      color: var(--light);
+      text-decoration: none;
+      transition: all 0.3s ease;
+      position: relative;
+    }
+
+    .main-footer nav ul li a::after {
+      content: '';
+      position: absolute;
+      bottom: -3px;
+      left: 0;
+      width: 0;
+      height: 1px;
+      background: var(--zellige-green);
+      transition: width 0.3s ease;
+    }
+
+    .main-footer nav ul li a:hover {
+      color: var(--zellige-green);
+    }
+
+    .main-footer nav ul li a:hover::after {
+      width: 100%;
+    }
+
+    /* ===== ANIMATIONS ===== */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 1024px) {
+      .article-content {
+        padding: 2rem;
+      }
+      
+      .featured-image img {
+        height: 400px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        width: 95%;
+      }
+      
+      .navbar ul {
+        gap: 1rem;
+      }
+      
+      .article-header h1 {
+        font-size: 2.2rem;
+      }
+      
+      .zellige-process {
+        grid-template-columns: 1fr;
+      }
+      
+      .gallery-grid {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      }
+      
+      .conclusion {
+        padding: 2rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .navbar ul {
+        gap: 0.7rem;
+      }
+      
+      .navbar ul li a {
+        font-size: 1rem;
+      }
+      
+      .article-header h1 {
+        font-size: 1.8rem;
+      }
+      
+      .featured-image img {
+        height: 300px;
+      }
+      
+      .btn-return {
+        padding: 0.8rem 1.8rem;
+        font-size: 0.9rem;
+      }
+      
+      .main-footer nav ul {
+        flex-direction: column;
+        gap: 0.7rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="main-header">
+    <div class="container">
+      <div class="logo">
+        <a href="index.html" aria-label="Retour à l'accueil">
+          <img src="images/logo.png" alt="Logo ArtMaroc.ce" width="120" />
+        </a>
+      </div>
+      <nav class="navbar" aria-label="Navigation principale">
+        <ul>
+          <li><a href="index.html" class="nav-link">Accueil</a></li>
+          <li><a href="histoire.html" class="nav-link">Historique</a></li>
+          <li><a href="categories.html" class="nav-link">Catégories</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contenu principal -->
+  <main class="content-container">
+    <article class="article-content">
+      <header class="article-header">
+        <h1>Architecture Islamique & Art du Zellige</h1>
+        <p class="intro-text">
+          Explorez la magnificence de l'architecture islamique marocaine et la perfection géométrique du zellige, 
+          un art millénaire qui transforme la terre cuite en véritables tapis de pierre.
+        </p>
+      </header>
+
+      <section class="section-overview">
+        <figure class="featured-image">
+          <img src="images/hassane2.jpeg" alt="Cour d'une mosquée marocaine avec zellige et arabesques" />
+          <figcaption>Cour de la Mosquée Hassan II - Chef-d'œuvre d'architecture islamique contemporaine</figcaption>
+        </figure>
+
+        <div class="overview-text">
+          <p>
+            L'architecture islamique au Maroc est une symphonie de formes géométriques, de motifs végétaux 
+            et de calligraphies sacrées. Cet art, né au VIIe siècle, a atteint son apogée avec les dynasties 
+            almohade et mérinide, laissant des joyaux comme la Koutoubia de Marrakech ou la médersa Ben Youssef.
+          </p>
+          <p>
+            Le zellige, cet art typiquement marocain de la mosaïque en terre cuite émaillée, représente 
+            l'expression la plus aboutie de cette recherche de perfection géométrique et de dialogue avec 
+            l'infini, principe fondamental de l'art islamique.
+          </p>
+        </div>
+      </section>
+
+      <!-- Section Architecture -->
+      <section class="architecture-section">
+        <h2>Éléments Clés de l'Architecture Islamique</h2>
+        
+        <div class="elements-grid">
+          <div class="element-card">
+            <div class="element-image">
+              <img src="images/arc.jpeg" alt="Arcs outrepassés marocains" />
+            </div>
+            <div class="element-content">
+              <h3>Les Arcs</h3>
+              <p>Arcs outrepassés, polylobés et en fer à cheval, caractéristiques de l'architecture hispano-mauresque, alliant grâce et solidité.</p>
+            </div>
+          </div>
+          
+          <div class="element-card">
+            <div class="element-image">
+              <img src="images/coupole.jpeg" alt="Coupole mouqarnas" />
+            </div>
+            <div class="element-content">
+              <h3>Coupoles à Mouqarnas</h3>
+              <p>Voûtes en nids d'abeille créant des jeux de lumière et une impression d'infini, prouesse technique et esthétique.</p>
+            </div>
+          </div>
+          
+          <div class="element-card">
+            <div class="element-image">
+              <img src="images/patio.jpeg" alt="Patio andalou" />
+            </div>
+            <div class="element-content">
+              <h3>Patios et Jardins</h3>
+              <p>Espaces centraux organisés autour de l'eau, symbolisant le paradis dans la tradition islamique.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section Zellige -->
+      <section class="zellige-section">
+        <h2>L'Art du Zellige</h2>
+        <p>
+          Le zellige est une technique de mosaïque en terre cuite émaillée apparue au Maroc au Xe siècle. 
+          Chaque pièce (tesselle) est taillée manuellement selon des formes géométriques précises qui 
+          s'assemblent comme un puzzle infini, sans jamais répéter exactement le même motif.
+        </p>
+        
+        <div class="zellige-process">
+          <div class="process-step">
+            <div class="step-icon">❶</div>
+            <h4>Préparation de l'argile</h4>
+            <p>Argile locale mélangée, malaxée et moulée en plaques épaisses</p>
+          </div>
+          
+          <div class="process-step">
+            <div class="step-icon">❷</div>
+            <h4>Cuisson</h4>
+            <p>Première cuisson à 900°C pour durcir la terre cuite</p>
+          </div>
+          
+          <div class="process-step">
+            <div class="step-icon">❸</div>
+            <h4>Émaillage</h4>
+            <p>Application d'émaux colorés à base d'oxydes métalliques</p>
+          </div>
+          
+          <div class="process-step">
+            <div class="step-icon">❹</div>
+            <h4>Découpe</h4>
+            <p>Taille manuelle des tesselles selon des gabarits en métal</p>
+          </div>
+          
+          <div class="process-step">
+            <div class="step-icon">❺</div>
+            <h4>Assemblage</h4>
+            <p>Composition du motif à l'envers sur un lit de sable</p>
+          </div>
+        </div>
+      </section>
+<!-- Section Vidéo -->
+<section class="video-section" style="margin: 4rem 0; text-align: center;">
+  <h2 style="color: var(--primary); font-family: 'El Messiri', sans-serif; font-size: 2.5rem; margin-bottom: 2rem;">
+    Découvrez le processus en vidéo
+  </h2>
+  <div class="video-wrapper" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000; border-radius: 10px;">
+    <iframe 
+      src="https://www.youtube.com/embed/rWCMDGdGcFI" 
+      title="Fabrication traditionnelle du zellige marocain"
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+    </iframe>
+  </div>
+  <p class="video-caption" style="color: var(--light); margin-top: 1rem; font-size: 1.2rem;">
+    Documentaire sur la fabrication traditionnelle du zellige marocain.
+  </p>
+</section>
+
+      <!-- Galerie Motifs -->
+      <section class="gallery-section">
+        <h2>Motifs Traditionnels du Zellige</h2>
+        <p>Découvrez la richesse des motifs géométriques qui ornent les monuments marocains</p>
+        
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="images/motif1.jpeg" alt="Motif étoile à 8 branches" />
+            <div class="gallery-caption">Étoile à 8 branches - Symbole d'équilibre</div>
+          </div>
+          <div class="gallery-item">
+            <img src="images/motif2.png" alt="Motif sebka" />
+            <div class="gallery-caption">Sebka - Motif en nid d'abeille</div>
+          </div>
+          <div class="gallery-item">
+            <img src="images/motif3.jpeg" alt="Motif floral stylisé" />
+            <div class="gallery-caption">Floral stylisé - Inspiration andalouse</div>
+          </div>
+          <div class="gallery-item">
+            <img src="images/motif4.jpeg" alt="Motif géométrique complexe" />
+            <div class="gallery-caption">Entrelacs - Géométrie sacrée</div>
+          </div>
+          <div class="gallery-item">
+            <img src="images/motif5.jpg" alt="Motif calligraphique" />
+            <div class="gallery-caption">Calligraphie coufique - Versets coraniques</div>
+          </div>
+          
+      </section>
+
+      <section class="conclusion">
+        <h2>Un Patrimoine Vivant</h2>
+        <p>
+          L'architecture islamique et l'art du zellige au Maroc ne sont pas de simples vestiges du passé, 
+          mais des traditions vivantes qui continuent d'inspirer les créateurs contemporains. Des médersas 
+          historiques aux villas modernes, ce langage visuel unique reste un marqueur fort de l'identité 
+          culturelle marocaine.
+        </p>
+        <p>
+          Aujourd'hui, les maâlems (maîtres artisans) perpétuent ce savoir-faire tout en l'adaptant aux 
+          exigences contemporaines, assurant la transmission de cet héritage aux générations futures.
+        </p>
+      </section>
+
+      <footer class="article-footer">
+        <a href="histoire.html" class="btn-return" aria-label="Retour aux catégories">← Retour </a>
+      </footer>
+    </article>
+  </main>
+
+  
+  <script>
+    // Effet de réduction du header au scroll
+    window.addEventListener('scroll', function() {
+      const header = document.querySelector('.main-header');
+      if (window.scrollY > 50) {
+        header.classList.add('scrolled');
+      } else {
+        header.classList.remove('scrolled');
+      }
+    });
+
+    // Animation des éléments au chargement
+    document.addEventListener('DOMContentLoaded', function() {
+      const elements = document.querySelectorAll('.element-card, .process-step, .gallery-item');
+      elements.forEach((el, index) => {
+        setTimeout(() => {
+          el.style.animation = 'fadeIn 0.7s ease forwards';
+        }, 100 * index);
+      });
+    });
+  </script>
+</body>
+</html>

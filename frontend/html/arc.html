@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="fr-MA">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Découvrez l'art sacré de la calligraphie marocaine, un héritage culturel entre spiritualité et esthétique." />
+  <title>Calligraphie Marocaine | ArtMaroc.ce</title>
+
+  <!-- Polices -->
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=El+Messiri:wght@500;600&display=swap" rel="stylesheet" />
+  <style>
+    /* ===== VARIABLES & RESET ===== */
+    :root {
+      --primary: #f8c471;   /* Couleur dorée */
+      --ink: #1a1a1a;       /* Encre noire */
+      --paper: #f5f2e8;     /* Parchemin */
+      --islamic-blue: #1a5f7a; 
+      --secondary: #8B4513; /* Sépia */
+      --dark: #0a0500;     
+      --light: #ffeaa7;    
+      --text: #fff;        
+      --header-h: 80px;    
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* ===== STRUCTURE DE BASE ===== */
+    body, html {
+      height: 100%;
+      font-family: 'Amiri', serif;
+      color: var(--text);
+      background: var(--dark);
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+      line-height: 1.8;
+    }
+
+    /* ===== HEADER ===== */
+    .main-header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: var(--header-h);
+      background: rgba(10, 5, 0, 0.95);
+      backdrop-filter: blur(8px);
+      box-shadow: 0 2px 20px rgba(248, 196, 113, 0.1);
+      z-index: 100;
+      transition: all 0.3s ease;
+      border-bottom: 1px solid rgba(248, 196, 113, 0.1);
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 100%;
+    }
+
+    .logo img {
+      transition: transform 0.3s ease;
+    }
+
+    .logo:hover img {
+      transform: scale(1.05);
+    }
+
+    .navbar ul {
+      list-style: none;
+      display: flex;
+      gap: 2.5rem;
+    }
+
+    .navbar ul li a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.3rem;
+      padding: 0.5rem;
+      position: relative;
+      transition: all 0.3s ease;
+    }
+
+    .navbar ul li a::after {
+      content: '';
+      position: absolute;
+      bottom: -3px;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background: var(--primary);
+      transition: width 0.3s ease;
+    }
+
+    .navbar ul li a:hover {
+      color: var(--light);
+    }
+
+    .navbar ul li a:hover::after {
+      width: 100%;
+    }
+
+    /* ===== MAIN CONTENT ===== */
+    .content-container {
+      padding-top: calc(var(--header-h) + 2rem);
+      position: relative;
+      z-index: 1;
+    }
+
+    .article-content {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 3rem;
+      background: rgba(0, 0, 0, 0.85);
+      backdrop-filter: blur(3px);
+      border-radius: 5px;
+      border: 1px solid rgba(248, 196, 113, 0.1);
+    }
+
+    .article-header h1 {
+      text-align: center;
+      margin-bottom: 2rem;
+      font-size: 3.5rem;
+      font-family: 'El Messiri', sans-serif;
+      color: var(--primary);
+      text-shadow: 0 0 15px rgba(248, 196, 113, 0.3);
+      position: relative;
+    }
+
+    .article-header h1::before,
+    .article-header h1::after {
+      content: '✺';
+      color: var(--primary);
+      margin: 0 1rem;
+    }
+
+    .intro-text {
+      font-size: 1.5rem;
+      text-align: center;
+      margin-bottom: 3rem;
+      color: var(--light);
+      line-height: 2;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* ===== SECTIONS ===== */
+    .calligraphy-section {
+      margin: 4rem 0;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 3rem;
+      font-size: 2.5rem;
+      font-family: 'El Messiri', sans-serif;
+      color: var(--primary);
+      position: relative;
+      padding-bottom: 1rem;
+    }
+
+    .section-title::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 40%;
+      width: 20%;
+      height: 2px;
+      background: linear-gradient(to right, var(--islamic-blue), var(--primary));
+    }
+
+    .styles-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 3rem;
+      margin-top: 3rem;
+    }
+
+    .style-card {
+      background: rgba(20, 15, 10, 0.7);
+      border-radius: 5px;
+      overflow: hidden;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+      transition: all 0.5s ease;
+      border: 1px solid rgba(248, 196, 113, 0.1);
+    }
+
+    .style-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 15px 30px rgba(248, 196, 113, 0.2);
+    }
+
+    .style-image {
+      width: 100%;
+      height: 300px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .style-image::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to bottom, transparent 60%, rgba(10,5,0,0.8));
+    }
+
+    .style-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.8s ease;
+    }
+
+    .style-card:hover .style-image img {
+      transform: scale(1.1);
+    }
+
+    .style-content {
+      padding: 2rem;
+    }
+
+    .style-content h3 {
+      color: var(--primary);
+      margin-bottom: 1rem;
+      font-size: 1.8rem;
+    }
+
+    /* Section Outils */
+    .tools-section {
+      background: rgba(26, 95, 122, 0.05);
+      padding: 3rem;
+      border-radius: 5px;
+      margin: 4rem 0;
+    }
+
+    .tools-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 2rem;
+      margin-top: 3rem;
+    }
+
+    .tool-item {
+      text-align: center;
+      padding: 1.5rem;
+      background: rgba(42, 127, 98, 0.1);
+      border-radius: 5px;
+      transition: all 0.4s ease;
+    }
+
+    .tool-item:hover {
+      background: rgba(42, 127, 98, 0.2);
+      transform: translateY(-5px);
+    }
+
+    .tool-icon {
+      font-size: 2.5rem;
+      color: var(--primary);
+      margin-bottom: 1rem;
+    }
+
+    .tool-item h4 {
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+      font-size: 1.3rem;
+    }
+
+    /* Galerie */
+    .gallery-section {
+      margin: 5rem 0;
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 3rem;
+    }
+
+    .gallery-item {
+      position: relative;
+      border-radius: 5px;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+      aspect-ratio: 3/4;
+      transition: all 0.5s ease;
+    }
+
+    .gallery-item:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 25px rgba(26, 95, 122, 0.4);
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.8s ease;
+    }
+
+    .gallery-item:hover img {
+      transform: scale(1.1);
+    }
+
+    .gallery-caption {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding: 1rem;
+      background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+      color: white;
+      transform: translateY(100%);
+      transition: transform 0.5s ease;
+    }
+
+    .gallery-item:hover .gallery-caption {
+      transform: translateY(0);
+    }
+
+    /* ===== CONCLUSION ===== */
+    .conclusion {
+      margin: 5rem 0 3rem;
+      padding: 3rem;
+      background: rgba(26, 95, 122, 0.1);
+      border-radius: 5px;
+      border-left: 4px solid var(--primary);
+      position: relative;
+    }
+
+    .conclusion h2 {
+      color: var(--primary);
+      margin-bottom: 1.5rem;
+      font-size: 2rem;
+      font-family: 'El Messiri', sans-serif;
+    }
+
+    /* ===== BUTTONS ===== */
+    .btn-return {
+      display: inline-block;
+      padding: 1rem 2.5rem;
+      margin-top: 2rem;
+      background: transparent;
+      border: 1px solid var(--primary);
+      border-radius: 5px;
+      color: var(--primary);
+      font-weight: bold;
+      text-decoration: none;
+      transition: all 0.5s ease;
+      position: relative;
+      overflow: hidden;
+      z-index: 1;
+      font-size: 1.2rem;
+    }
+
+    .btn-return::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 0;
+      height: 100%;
+      background: var(--primary);
+      transition: width 0.5s ease;
+      z-index: -1;
+    }
+
+    .btn-return:hover {
+      color: var(--dark);
+      transform: translateY(-3px);
+      box-shadow: 0 5px 20px rgba(248, 196, 113, 0.4);
+    }
+
+    .btn-return:hover::before {
+      width: 100%;
+    }
+
+    /* ===== FOOTER ===== */
+    .main-footer {
+      background: rgba(10, 5, 0, 0.95);
+      padding: 3rem 0;
+      text-align: center;
+      border-top: 1px solid rgba(248, 196, 113, 0.1);
+    }
+
+    .main-footer p {
+      margin-bottom: 1.5rem;
+      color: var(--primary);
+      font-size: 1.2rem;
+    }
+
+    .main-footer nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+    }
+
+    .main-footer nav ul li a {
+      color: var(--light);
+      text-decoration: none;
+      transition: all 0.3s ease;
+      position: relative;
+      font-size: 1.1rem;
+    }
+
+    .main-footer nav ul li a::after {
+      content: '';
+      position: absolute;
+      bottom: -3px;
+      left: 0;
+      width: 0;
+      height: 1px;
+      background: var(--primary);
+      transition: width 0.3s ease;
+    }
+
+    .main-footer nav ul li a:hover {
+      color: var(--primary);
+    }
+
+    .main-footer nav ul li a:hover::after {
+      width: 100%;
+    }
+
+    /* ===== ANIMATIONS ===== */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 1024px) {
+      .article-content {
+        padding: 2rem;
+      }
+      
+      .style-image {
+        height: 250px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      body, html {
+        font-size: 14px;
+      }
+      
+      .navbar ul {
+        gap: 1rem;
+      }
+      
+      .article-header h1 {
+        font-size: 2.5rem;
+      }
+      
+      .tools-list {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      
+      .gallery-grid {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      }
+    }
+
+    @media (max-width: 480px) {
+      .navbar ul {
+        gap: 0.7rem;
+      }
+      
+      .navbar ul li a {
+        font-size: 1rem;
+      }
+      
+      .article-header h1 {
+        font-size: 2rem;
+      }
+      
+      .styles-grid,
+      .tools-list {
+        grid-template-columns: 1fr;
+      }
+      
+      .btn-return {
+        padding: 0.8rem 1.8rem;
+      }
+      
+      .main-footer nav ul {
+        flex-direction: column;
+        gap: 0.7rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="main-header">
+    <div class="container">
+      <div class="logo">
+        <a href="index.html" aria-label="Retour à l'accueil">
+          <img src="images/logo.png" alt="Logo ArtMaroc.ce" width="120" />
+        </a>
+      </div>
+      <nav class="navbar" aria-label="Navigation principale">
+        <ul>
+          <li><a href="index.html" class="nav-link">Accueil</a></li>
+          <li><a href="histoire.html" class="nav-link">Histoire</a></li>
+          <li><a href="categories.html" class="nav-link">Catégories</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contenu principal -->
+  <main class="content-container">
+    <article class="article-content">
+      <header class="article-header">
+        <h1>Calligraphie Marocaine</h1>
+        <p class="intro-text">
+          La calligraphie marocaine est un art sacré qui allie spiritualité et esthétique, 
+          un héritage culturel transmis à travers les siècles par les maîtres calligraphes.
+        </p>
+      </header>
+
+      <!-- Section Styles -->
+      <section class="calligraphy-section">
+        <h2 class="section-title">Styles Calligraphiques</h2>
+        
+        <div class="styles-grid">
+          <div class="style-card">
+            <div class="style-image">
+              <img src="images/koufi.jpeg" alt="Calligraphie coufique marocaine" />
+            </div>
+            <div class="style-content">
+              <h3>Coufique Marocain</h3>
+              <p>Style angulaire utilisé dans les monuments historiques, caractérisé par ses proportions géométriques parfaites et ses motifs entrelacés.</p>
+            </div>
+          </div>
+          
+          <div class="style-card">
+            <div class="style-image">
+              <img src="images/masbout.jpeg" alt="Calligraphie Mabsout" />
+            </div>
+            <div class="style-content">
+              <h3>Mabsout</h3>
+              <p>Style cursif utilisé pour les copies du Coran et les documents officiels, alliant lisibilité et élégance.</p>
+            </div>
+          </div>
+          
+          <div class="style-card">
+            <div class="style-image">
+              <img src="images/ca.jpg" alt="Calligraphie ornementale" />
+            </div>
+            <div class="style-content">
+              <h3>Style Ornemental</h3>
+              <p>Calligraphie fleurie utilisée pour les décorations architecturales et les œuvres d'art, avec des courbes élégantes.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section Outils -->
+      <section class="tools-section">
+        <h2 class="section-title">Outils du Calligraphe</h2>
+        
+        <div class="tools-list">
+          <div class="tool-item">
+            <div class="tool-icon">🖋️</div>
+            <h4>Qalam</h4>
+            <p>Roseau taillé utilisé comme plume, préparé selon des méthodes traditionnelles</p>
+          </div>
+          
+          <div class="tool-item">
+            <div class="tool-icon">📜</div>
+            <h4>Support</h4>
+            <p>Papier vergé, parchemin ou papier wasli pour la pratique</p>
+          </div>
+          
+          <div class="tool-item">
+            <div class="tool-icon">🎨</div>
+            <h4>Encre</h4>
+            <p>Encre noire traditionnelle ou encres colorées à base de pigments naturels</p>
+          </div>
+          
+          <div class="tool-item">
+            <div class="tool-icon">📏</div>
+            <h4>Mastara</h4>
+            <p>Guide pour tracer des lignes parfaitement droites et régulières</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Galerie -->
+      <section class="gallery-section">
+        <h2 class="section-title">Chefs-d'œuvre Calligraphiques</h2>
+        
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="images/call1.jpeg" alt="Calligraphie coranique" />
+            <div class="gallery-caption">Page de Coran - Style Coufique</div>
+          </div>
+          <div class="gallery-item">
+            <img src="images/call3.jpeg" alt="Calligraphie sur bois" />
+            <div class="gallery-caption">Panneau en bois sculpté - Fès</div>
+          </div>
+          <div class="gallery-item">
+            <img src="images/call2.jpeg" alt="Décoration murale" />
+            <div class="gallery-caption">Zellige calligraphié - Meknès</div>
+          </div>
+          <div class="gallery-item">
+            <img src="images/call4.jpeg" alt="Manuscrit ancien" />
+            <div class="gallery-caption">Manuscrit du 15ème siècle</div>
+          </div>
+          <div class="gallery-item">
+            <img src="images/call5.jpeg" alt="Calligraphie moderne" />
+            <div class="gallery-caption">Œuvre contemporaine</div>
+          </div>
+          <div class="gallery-item">
+            <img src="images/call6.jpeg" alt="Porte calligraphiée" />
+            <div class="gallery-caption">Porte de médersa - Marrakech</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="conclusion">
+        <h2>Un Art Vivant</h2>
+        <p>
+          La calligraphie marocaine n'est pas qu'un art du passé. Aujourd'hui encore, des maîtres calligraphes 
+          perpétuent cette tradition tout en l'adaptant aux expressions contemporaines. Des médersas historiques 
+          aux galeries d'art modernes, cet art continue de fasciner par sa beauté et sa profondeur spirituelle.
+        </p>
+        <p>
+          Plus qu'une simple technique d'écriture, la calligraphie arabe au Maroc est une méditation, une prière 
+          visuelle qui unit l'artiste à la divine parole.
+        </p>
+      </section>
+
+      <footer class="article-footer">
+        <a href="histoire.html" class="btn-return" aria-label="Retour">← Retour</a>
+      </footer>
+    </article>
+  </main>
+
+  
+
+  <script>
+    // Animation des éléments
+    document.addEventListener('DOMContentLoaded', function() {
+      const elements = document.querySelectorAll('.style-card, .tool-item, .gallery-item');
+      elements.forEach((el, index) => {
+        setTimeout(() => {
+          el.style.animation = 'fadeIn 0.7s ease forwards';
+        }, 100 * index);
+      });
+    });
+  </script>
+</body>
+</html>
